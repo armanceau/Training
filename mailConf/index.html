@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MailConf</title>
+</head>
+<body>
+    <div class="contactez-nous">
+    <h1>Contactez-nous</h1>
+    <form method="post">
+        <label>Votre email</label>
+        <input type="email" name="email" required>
+        <label>Sujet</label>
+        <input type="text" name="sujet" required>
+        <label>Message</label>
+        <textarea name="message" required></textarea>
+        <input type="submit" value="Envoyer">
+    </form>
+        <?php
+            $retour = mail('arthur.manceau1@outlook.fr', 'test', "cc", "From:contact@exemplesite.fr");
+            if($retour){
+                echo '<p>Votre message a bien été envoyé.</p>';
+            }
+                
+        ?>
+</body>
+</html>
