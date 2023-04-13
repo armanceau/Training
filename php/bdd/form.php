@@ -1,14 +1,10 @@
 <?php
-$nom = $_REQUEST['nom'];
-$age = $_REQUEST['age'];
-$mail = $_REQUEST['mail'];
-$don = $_REQUEST['don'];
+require 'connexion.php';
 
 
-echo 'Votre nom est : '.$nom.'.<br>';
-echo 'Vous avez : '.$age.' ans. <br>';
-echo 'Votre mail est : '.$mail.'.<br>';
-echo 'Vous avez donné : '.$don.'€.<br>';
 
+print "<br>Classement par Noms";
+$query = "SELECT * FROM user ORDER BY nom ";
 
+echo 'Noms : '.$query;
 ?>
