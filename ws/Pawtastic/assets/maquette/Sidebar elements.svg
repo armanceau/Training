@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="2834" viewBox="0 0 1440 2834">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="64" height="64" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="160" height="48" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="32" height="32" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_276" data-name="Rectangle 276" width="32" height="32" fill="#545871"/>
+    </clipPath>
+    <filter id="Path_201" x="719.434" y="312.396" width="20.466" height="21.249" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.561"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-6">
+      <rect id="Rectangle_278" data-name="Rectangle 278" width="32" height="32" transform="translate(-19.6 -17.3)" fill="#545871"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect id="Rectangle_279" data-name="Rectangle 279" width="32" height="32" transform="translate(-17.5 -17.3)" fill="#545871"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <rect id="Rectangle_280" data-name="Rectangle 280" width="32" height="32" transform="translate(-15.6 -17.3)" fill="#545871"/>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <rect width="288.5" height="902" fill="none"/>
+    </clipPath>
+    <filter id="Path_201-2" x="745.434" y="1377.396" width="20.466" height="21.248" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.561"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-21">
+      <rect width="338" height="252" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-22">
+      <rect width="338" height="254" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-23">
+      <rect width="338" height="245" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Sidebar_elements">
+      <rect width="1440" height="2834"/>
+    </clipPath>
+  </defs>
+  <g id="Sidebar_elements" data-name="Sidebar elements" clip-path="url(#clip-Sidebar_elements)">
+    <rect width="1440" height="2834" fill="#fff"/>
+    <g id="Component" transform="translate(560 147)">
+      <rect id="Rectangle_42" data-name="Rectangle 42" width="289" height="928" fill="#545871"/>
+      <text id="SERVICES" transform="translate(64 148)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SERVICES</tspan></text>
+      <text id="PETS" transform="translate(64 277)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PETS</tspan></text>
+      <text id="Completed" transform="translate(64 215)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Completed</tspan></text>
+      <text id="Fluffy" transform="translate(64 344)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Fluffy</tspan></text>
+      <text id="Scheduled" transform="translate(64 182)" fill="#ebd0ce" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Scheduled</tspan></text>
+      <text id="Ginger" transform="translate(64 311)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Ginger</tspan></text>
+      <text id="Support" transform="translate(64 816)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Support</tspan></text>
+      <text id="My_account" data-name="My account" transform="translate(64 783)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">My account</tspan></text>
+      <text id="Sign_out" data-name="Sign out" transform="translate(64 849)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Sign out</tspan></text>
+      <g id="Logomark" transform="translate(64 24)" clip-path="url(#clip-path)">
+        <path id="Path_104" data-name="Path 104" d="M32,0A32,32,0,1,1,0,32,32,32,0,0,1,32,0Z" fill="#ebd0ce"/>
+        <circle id="Ellipse_31" data-name="Ellipse 31" cx="4.167" cy="4.167" r="4.167" transform="translate(11.72 32.437) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_32" data-name="Ellipse 32" cx="4.167" cy="4.167" r="4.167" transform="translate(14.882 22.913) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_33" data-name="Ellipse 33" cx="4.167" cy="4.167" r="4.167" transform="translate(23.542 17.913) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_34" data-name="Ellipse 34" cx="4.167" cy="4.167" r="4.167" transform="translate(33.371 19.937) rotate(-30)" fill="#545871"/>
+        <path id="Path_102" data-name="Path 102" d="M26.238,17.767c-1.45-1.7-2.667-3.15-4.133-4.85a7.071,7.071,0,0,0-2.917-2.2,3.374,3.374,0,0,0-.55-.15,8.388,8.388,0,0,0-1.3-.067,6.992,6.992,0,0,0-1.317.083,3.374,3.374,0,0,0-.55.15,7.18,7.18,0,0,0-2.917,2.2c-1.45,1.7-2.667,3.15-4.133,4.85-2.183,2.183-4.867,4.6-4.367,7.983a5.233,5.233,0,0,0,3.883,3.867c1.217.25,5.1-.733,9.233-.733h.3c4.133,0,8.017.967,9.233.733a5.258,5.258,0,0,0,3.883-3.867c.517-3.4-2.167-5.817-4.35-8Z" transform="translate(8.806 28.731) rotate(-30)" fill="#545871"/>
+      </g>
+      <g id="Component-2" data-name="Component" transform="translate(64 396)" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_182" data-name="Rectangle 182" width="160" height="48" rx="5" fill="#fff"/>
+        <text id="Book_a_service" data-name="Book a service" transform="translate(0 10.714)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="15.181" y="21">Book a service</tspan></text>
+      </g>
+    </g>
+    <rect id="Rectangle_346" data-name="Rectangle 346" width="1440" height="584" transform="translate(0 2250)" fill="#545871"/>
+    <g id="Pointer" transform="translate(714 306)" clip-path="url(#clip-path-3)">
+      <g id="Group_262" data-name="Group 262" clip-path="url(#clip-path-4)">
+        <g transform="matrix(1, 0, 0, 1, -714, -306)" filter="url(#Path_201)">
+          <path id="Path_201-3" data-name="Path 201" d="M11.3,20.4c-.3-.4-.6-1.1-1.2-2-.3-.5-1.2-1.5-1.5-1.9a1.183,1.183,0,0,1-.1-1,1.41,1.41,0,0,1,1.4-1.1,2.666,2.666,0,0,1,1.4.7c.2.2.5.6.7.8s.2.3.4.5c.2.3.3.5.2.1-.1-.5-.2-1.3-.4-2.1a8.112,8.112,0,0,0-.3-1.1c-.1-.5-.2-.8-.3-1.3-.1-.3-.2-1.1-.3-1.5a2.273,2.273,0,0,1,.3-1.8,1.227,1.227,0,0,1,1.3-.2,2.567,2.567,0,0,1,.9,1.3,8.3,8.3,0,0,1,.5,2c.2,1,.5,2.5.5,2.8a7.519,7.519,0,0,1,0-1.5,1.12,1.12,0,0,1,.7-.8,2.769,2.769,0,0,1,.9-.1,2.177,2.177,0,0,1,.8.5,4.338,4.338,0,0,1,.4,1.8,9.005,9.005,0,0,1,.3-1.6,1.794,1.794,0,0,1,.7-.5,1.7,1.7,0,0,1,1,0,1.157,1.157,0,0,1,.7.5,8.469,8.469,0,0,1,.4,1.7,5.946,5.946,0,0,1,.3-.7,1.034,1.034,0,0,1,1.9.6v2.3a9.852,9.852,0,0,1-.2,1.7,6.068,6.068,0,0,1-.7,1.4,6.069,6.069,0,0,0-1.2,1.8,4.142,4.142,0,0,0-.1,1,5.527,5.527,0,0,0,.1.9,4.521,4.521,0,0,1-1.2,0,2.132,2.132,0,0,1-1-1.1.385.385,0,0,0-.7,0c-.2.4-.7,1.1-1.1,1.1-.7.1-2.1,0-3.1,0,0,0,.2-1-.2-1.4l-1.1-1.1Z" transform="translate(714 306)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_263" data-name="Group 263" clip-path="url(#clip-path-4)">
+        <path id="Path_202" data-name="Path 202" d="M11.3,20.4c-.3-.4-.6-1.1-1.2-2-.3-.5-1.2-1.5-1.5-1.9a1.183,1.183,0,0,1-.1-1,1.41,1.41,0,0,1,1.4-1.1,2.666,2.666,0,0,1,1.4.7c.2.2.5.6.7.8s.2.3.4.5c.2.3.3.5.2.1-.1-.5-.2-1.3-.4-2.1a8.112,8.112,0,0,0-.3-1.1c-.1-.5-.2-.8-.3-1.3-.1-.3-.2-1.1-.3-1.5a2.273,2.273,0,0,1,.3-1.8,1.227,1.227,0,0,1,1.3-.2,2.567,2.567,0,0,1,.9,1.3,8.3,8.3,0,0,1,.5,2c.2,1,.5,2.5.5,2.8a7.519,7.519,0,0,1,0-1.5,1.12,1.12,0,0,1,.7-.8,2.769,2.769,0,0,1,.9-.1,2.177,2.177,0,0,1,.8.5,4.338,4.338,0,0,1,.4,1.8,9.005,9.005,0,0,1,.3-1.6,1.794,1.794,0,0,1,.7-.5,1.7,1.7,0,0,1,1,0,1.157,1.157,0,0,1,.7.5,8.469,8.469,0,0,1,.4,1.7,5.946,5.946,0,0,1,.3-.7,1.034,1.034,0,0,1,1.9.6v2.3a9.852,9.852,0,0,1-.2,1.7,6.068,6.068,0,0,1-.7,1.4,6.069,6.069,0,0,0-1.2,1.8,4.142,4.142,0,0,0-.1,1,5.527,5.527,0,0,0,.1.9,4.521,4.521,0,0,1-1.2,0,2.132,2.132,0,0,1-1-1.1.385.385,0,0,0-.7,0c-.2.4-.7,1.1-1.1,1.1-.7.1-2.1,0-3.1,0,0,0,.2-1-.2-1.4l-1.1-1.1Z" fill="none" stroke="#545871" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      </g>
+      <g id="Group_264" data-name="Group 264" transform="translate(19.6 17.3)" clip-path="url(#clip-path-6)">
+        <line id="Line_155" data-name="Line 155" y1="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+      </g>
+      <g id="Group_265" data-name="Group 265" transform="translate(17.5 17.3)" clip-path="url(#clip-path-7)">
+        <line id="Line_156" data-name="Line 156" x1="0.1" y1="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+      </g>
+      <g id="Group_266" data-name="Group 266" transform="translate(15.6 17.3)" clip-path="url(#clip-path-8)">
+        <line id="Line_157" data-name="Line 157" y2="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+      </g>
+    </g>
+    <text id="SIGNUP_PROGRESS_1" data-name="SIGNUP PROGRESS 1" transform="translate(129 2388)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SIGNUP PROGRESS 1</tspan></text>
+    <text id="SIGNUP_PROGRESS_2" data-name="SIGNUP PROGRESS 2" transform="translate(416 2388)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SIGNUP PROGRESS 2</tspan></text>
+    <text id="SIGNUP_PROGRESS_3" data-name="SIGNUP PROGRESS 3" transform="translate(704 2388)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SIGNUP PROGRESS 3</tspan></text>
+    <text id="SIGNUP_PROGRESS_4" data-name="SIGNUP PROGRESS 4" transform="translate(992 2388)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SIGNUP PROGRESS 4</tspan></text>
+    <text id="APP_SIDEBAR" data-name="APP SIDEBAR" transform="translate(240 128)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">APP SIDEBAR</tspan></text>
+    <text id="SECONDARY_SIDEBAR" data-name="SECONDARY SIDEBAR" transform="translate(240 1184)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SECONDARY SIDEBAR</tspan></text>
+    <text id="APP_SIDEBAR_ON_HOVER" data-name="APP SIDEBAR ON HOVER" transform="translate(560 128)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">APP SIDEBAR ON HOVER</tspan></text>
+    <text id="SECONDARY_SIDEBAR_LINK_SELECTED" data-name="SECONDARY SIDEBAR LINK SELECTED" transform="translate(560 1184)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SECONDARY SIDEBAR LINK SELECTED</tspan></text>
+    <text id="APP_SIDEBAR_LINK_SELECTED" data-name="APP SIDEBAR LINK SELECTED" transform="translate(880 128)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">APP SIDEBAR LINK SELECTED</tspan></text>
+    <text id="SECONDARY_SIDEBAR_ON_HOVER" data-name="SECONDARY SIDEBAR ON HOVER" transform="translate(880 1184)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SECONDARY SIDEBAR ON HOVER</tspan></text>
+    <g transform="translate(561 1206)" clip-path="url(#clip-path-9)">
+      <rect id="Rectangle_420" data-name="Rectangle 420" width="288" height="902" fill="#636780"/>
+      <text id="My_Account-2" data-name="My Account" transform="translate(64 51)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">My Account</tspan></text>
+      <line id="Line_206" data-name="Line 206" x2="288" transform="translate(0.5 88.5)" fill="none" stroke="#9597a6" stroke-width="1"/>
+      <text id="PROFILE" transform="translate(64 149)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PROFILE</tspan></text>
+      <text id="PAYMENT_INFO" data-name="PAYMENT INFO" transform="translate(64 278)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PAYMENT INFO</tspan></text>
+      <text id="Contact_info" data-name="Contact info" transform="translate(64 216)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Contact info</tspan></text>
+      <text id="Receipts" transform="translate(64 345)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Receipts</tspan></text>
+      <text id="Home_address" data-name="Home address" transform="translate(64 183)" fill="#ebd0ce" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Home address</tspan></text>
+      <text id="Payment_methods" data-name="Payment methods" transform="translate(64 312)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Payment methods</tspan></text>
+    </g>
+    <g transform="translate(882 1206)" clip-path="url(#clip-path-9)">
+      <rect id="Rectangle_420-2" data-name="Rectangle 420" width="288" height="902" fill="#636780"/>
+      <text id="My_Account-3" data-name="My Account" transform="translate(64 51)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">My Account</tspan></text>
+      <line id="Line_206-2" data-name="Line 206" x2="288" transform="translate(0.5 88.5)" fill="none" stroke="#9597a6" stroke-width="1"/>
+      <text id="PROFILE-2" data-name="PROFILE" transform="translate(64 149)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PROFILE</tspan></text>
+      <text id="PAYMENT_INFO-2" data-name="PAYMENT INFO" transform="translate(64 278)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PAYMENT INFO</tspan></text>
+      <text id="Contact_info-2" data-name="Contact info" transform="translate(64 216)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Contact info</tspan></text>
+      <text id="Receipts-2" data-name="Receipts" transform="translate(64 345)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Receipts</tspan></text>
+      <text id="Home_address-2" data-name="Home address" transform="translate(64 183)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="0" y="0">Home address</tspan></text>
+      <text id="Payment_methods-2" data-name="Payment methods" transform="translate(64 312)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Payment methods</tspan></text>
+    </g>
+    <g id="Pointer-2" data-name="Pointer" transform="translate(740 1371)" clip-path="url(#clip-path-3)">
+      <g id="Group_262-2" data-name="Group 262" clip-path="url(#clip-path-4)">
+        <g transform="matrix(1, 0, 0, 1, -740, -1371)" filter="url(#Path_201-2)">
+          <path id="Path_201-4" data-name="Path 201" d="M11.3,20.4c-.3-.4-.6-1.1-1.2-2-.3-.5-1.2-1.5-1.5-1.9a1.183,1.183,0,0,1-.1-1,1.41,1.41,0,0,1,1.4-1.1,2.666,2.666,0,0,1,1.4.7c.2.2.5.6.7.8s.2.3.4.5c.2.3.3.5.2.1-.1-.5-.2-1.3-.4-2.1a8.112,8.112,0,0,0-.3-1.1c-.1-.5-.2-.8-.3-1.3-.1-.3-.2-1.1-.3-1.5a2.273,2.273,0,0,1,.3-1.8,1.227,1.227,0,0,1,1.3-.2,2.567,2.567,0,0,1,.9,1.3,8.3,8.3,0,0,1,.5,2c.2,1,.5,2.5.5,2.8a7.519,7.519,0,0,1,0-1.5,1.12,1.12,0,0,1,.7-.8,2.769,2.769,0,0,1,.9-.1,2.177,2.177,0,0,1,.8.5,4.338,4.338,0,0,1,.4,1.8,9.005,9.005,0,0,1,.3-1.6,1.794,1.794,0,0,1,.7-.5,1.7,1.7,0,0,1,1,0,1.157,1.157,0,0,1,.7.5,8.469,8.469,0,0,1,.4,1.7,5.946,5.946,0,0,1,.3-.7,1.034,1.034,0,0,1,1.9.6v2.3a9.852,9.852,0,0,1-.2,1.7,6.068,6.068,0,0,1-.7,1.4,6.069,6.069,0,0,0-1.2,1.8,4.142,4.142,0,0,0-.1,1,5.527,5.527,0,0,0,.1.9,4.521,4.521,0,0,1-1.2,0,2.132,2.132,0,0,1-1-1.1.385.385,0,0,0-.7,0c-.2.4-.7,1.1-1.1,1.1-.7.1-2.1,0-3.1,0,0,0,.2-1-.2-1.4l-1.1-1.1Z" transform="translate(740 1371)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_263-2" data-name="Group 263" clip-path="url(#clip-path-4)">
+        <path id="Path_202-2" data-name="Path 202" d="M11.3,20.4c-.3-.4-.6-1.1-1.2-2-.3-.5-1.2-1.5-1.5-1.9a1.183,1.183,0,0,1-.1-1,1.41,1.41,0,0,1,1.4-1.1,2.666,2.666,0,0,1,1.4.7c.2.2.5.6.7.8s.2.3.4.5c.2.3.3.5.2.1-.1-.5-.2-1.3-.4-2.1a8.112,8.112,0,0,0-.3-1.1c-.1-.5-.2-.8-.3-1.3-.1-.3-.2-1.1-.3-1.5a2.273,2.273,0,0,1,.3-1.8,1.227,1.227,0,0,1,1.3-.2,2.567,2.567,0,0,1,.9,1.3,8.3,8.3,0,0,1,.5,2c.2,1,.5,2.5.5,2.8a7.519,7.519,0,0,1,0-1.5,1.12,1.12,0,0,1,.7-.8,2.769,2.769,0,0,1,.9-.1,2.177,2.177,0,0,1,.8.5,4.338,4.338,0,0,1,.4,1.8,9.005,9.005,0,0,1,.3-1.6,1.794,1.794,0,0,1,.7-.5,1.7,1.7,0,0,1,1,0,1.157,1.157,0,0,1,.7.5,8.469,8.469,0,0,1,.4,1.7,5.946,5.946,0,0,1,.3-.7,1.034,1.034,0,0,1,1.9.6v2.3a9.852,9.852,0,0,1-.2,1.7,6.068,6.068,0,0,1-.7,1.4,6.069,6.069,0,0,0-1.2,1.8,4.142,4.142,0,0,0-.1,1,5.527,5.527,0,0,0,.1.9,4.521,4.521,0,0,1-1.2,0,2.132,2.132,0,0,1-1-1.1.385.385,0,0,0-.7,0c-.2.4-.7,1.1-1.1,1.1-.7.1-2.1,0-3.1,0,0,0,.2-1-.2-1.4l-1.1-1.1Z" fill="none" stroke="#545871" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+      </g>
+      <g id="Group_264-2" data-name="Group 264" transform="translate(19.6 17.3)" clip-path="url(#clip-path-6)">
+        <line id="Line_155-2" data-name="Line 155" y1="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+      </g>
+      <g id="Group_265-2" data-name="Group 265" transform="translate(17.5 17.3)" clip-path="url(#clip-path-7)">
+        <line id="Line_156-2" data-name="Line 156" x1="0.1" y1="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+      </g>
+      <g id="Group_266-2" data-name="Group 266" transform="translate(15.6 17.3)" clip-path="url(#clip-path-8)">
+        <line id="Line_157-2" data-name="Line 157" y2="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+      </g>
+    </g>
+    <g id="Component-3" data-name="Component" transform="translate(239 147)">
+      <rect id="Rectangle_42-2" data-name="Rectangle 42" width="289" height="928" fill="#545871"/>
+      <text id="SERVICES-2" data-name="SERVICES" transform="translate(64 148)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SERVICES</tspan></text>
+      <text id="PETS-2" data-name="PETS" transform="translate(64 277)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PETS</tspan></text>
+      <text id="Completed-2" data-name="Completed" transform="translate(64 215)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Completed</tspan></text>
+      <text id="Fluffy-2" data-name="Fluffy" transform="translate(64 344)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Fluffy</tspan></text>
+      <text id="Scheduled-2" data-name="Scheduled" transform="translate(64 182)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Scheduled</tspan></text>
+      <text id="Ginger-2" data-name="Ginger" transform="translate(64 311)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Ginger</tspan></text>
+      <text id="Support-2" data-name="Support" transform="translate(64 816)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Support</tspan></text>
+      <text id="My_account-4" data-name="My account" transform="translate(64 783)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">My account</tspan></text>
+      <text id="Sign_out-2" data-name="Sign out" transform="translate(64 849)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Sign out</tspan></text>
+      <g id="Component-4" data-name="Component" transform="translate(64 396)" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_182-2" data-name="Rectangle 182" width="160" height="48" rx="5" fill="#fff"/>
+        <text id="Book_a_service-2" data-name="Book a service" transform="translate(0 10.714)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="15.181" y="21">Book a service</tspan></text>
+      </g>
+      <g id="Logomark-2" data-name="Logomark" transform="translate(64 24)" clip-path="url(#clip-path)">
+        <path id="Path_104-2" data-name="Path 104" d="M32,0A32,32,0,1,1,0,32,32,32,0,0,1,32,0Z" fill="#ebd0ce"/>
+        <circle id="Ellipse_31-2" data-name="Ellipse 31" cx="4.167" cy="4.167" r="4.167" transform="translate(11.72 32.437) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_32-2" data-name="Ellipse 32" cx="4.167" cy="4.167" r="4.167" transform="translate(14.882 22.913) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_33-2" data-name="Ellipse 33" cx="4.167" cy="4.167" r="4.167" transform="translate(23.542 17.913) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_34-2" data-name="Ellipse 34" cx="4.167" cy="4.167" r="4.167" transform="translate(33.371 19.937) rotate(-30)" fill="#545871"/>
+        <path id="Path_102-2" data-name="Path 102" d="M26.238,17.767c-1.45-1.7-2.667-3.15-4.133-4.85a7.071,7.071,0,0,0-2.917-2.2,3.374,3.374,0,0,0-.55-.15,8.388,8.388,0,0,0-1.3-.067,6.992,6.992,0,0,0-1.317.083,3.374,3.374,0,0,0-.55.15,7.18,7.18,0,0,0-2.917,2.2c-1.45,1.7-2.667,3.15-4.133,4.85-2.183,2.183-4.867,4.6-4.367,7.983a5.233,5.233,0,0,0,3.883,3.867c1.217.25,5.1-.733,9.233-.733h.3c4.133,0,8.017.967,9.233.733a5.258,5.258,0,0,0,3.883-3.867c.517-3.4-2.167-5.817-4.35-8Z" transform="translate(8.806 28.731) rotate(-30)" fill="#545871"/>
+      </g>
+    </g>
+    <g id="Component-5" data-name="Component" transform="translate(881 147)">
+      <rect id="Rectangle_42-3" data-name="Rectangle 42" width="289" height="928" fill="#545871"/>
+      <text id="SERVICES-3" data-name="SERVICES" transform="translate(64 148)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">SERVICES</tspan></text>
+      <text id="PETS-3" data-name="PETS" transform="translate(64 277)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PETS</tspan></text>
+      <text id="Completed-3" data-name="Completed" transform="translate(64 215)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Completed</tspan></text>
+      <text id="Fluffy-3" data-name="Fluffy" transform="translate(64 344)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Fluffy</tspan></text>
+      <text id="Scheduled-3" data-name="Scheduled" transform="translate(64 182)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto" text-decoration="underline"><tspan x="0" y="0">Scheduled</tspan></text>
+      <text id="Ginger-3" data-name="Ginger" transform="translate(64 311)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Ginger</tspan></text>
+      <text id="Support-3" data-name="Support" transform="translate(64 816)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Support</tspan></text>
+      <text id="My_account-5" data-name="My account" transform="translate(64 783)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">My account</tspan></text>
+      <text id="Sign_out-3" data-name="Sign out" transform="translate(64 849)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Sign out</tspan></text>
+      <g id="Logomark-3" data-name="Logomark" transform="translate(64 24)" clip-path="url(#clip-path)">
+        <path id="Path_104-3" data-name="Path 104" d="M32,0A32,32,0,1,1,0,32,32,32,0,0,1,32,0Z" fill="#ebd0ce"/>
+        <circle id="Ellipse_31-3" data-name="Ellipse 31" cx="4.167" cy="4.167" r="4.167" transform="translate(11.72 32.437) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_32-3" data-name="Ellipse 32" cx="4.167" cy="4.167" r="4.167" transform="translate(14.882 22.913) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_33-3" data-name="Ellipse 33" cx="4.167" cy="4.167" r="4.167" transform="translate(23.542 17.913) rotate(-30)" fill="#545871"/>
+        <circle id="Ellipse_34-3" data-name="Ellipse 34" cx="4.167" cy="4.167" r="4.167" transform="translate(33.371 19.937) rotate(-30)" fill="#545871"/>
+        <path id="Path_102-3" data-name="Path 102" d="M26.238,17.767c-1.45-1.7-2.667-3.15-4.133-4.85a7.071,7.071,0,0,0-2.917-2.2,3.374,3.374,0,0,0-.55-.15,8.388,8.388,0,0,0-1.3-.067,6.992,6.992,0,0,0-1.317.083,3.374,3.374,0,0,0-.55.15,7.18,7.18,0,0,0-2.917,2.2c-1.45,1.7-2.667,3.15-4.133,4.85-2.183,2.183-4.867,4.6-4.367,7.983a5.233,5.233,0,0,0,3.883,3.867c1.217.25,5.1-.733,9.233-.733h.3c4.133,0,8.017.967,9.233.733a5.258,5.258,0,0,0,3.883-3.867c.517-3.4-2.167-5.817-4.35-8Z" transform="translate(8.806 28.731) rotate(-30)" fill="#545871"/>
+      </g>
+      <g id="Component-6" data-name="Component" transform="translate(64 396)" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_182-3" data-name="Rectangle 182" width="160" height="48" rx="5" fill="#fff"/>
+        <text id="Book_a_service-3" data-name="Book a service" transform="translate(0 10.714)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="15.181" y="21">Book a service</tspan></text>
+      </g>
+    </g>
+    <g id="Component_4" data-name="Component 4" transform="translate(992 2431)" clip-path="url(#clip-path-21)">
+      <line id="Line_118" data-name="Line 118" y2="210" transform="translate(20 15.5)" fill="none" stroke="#9597a6" stroke-width="1"/>
+      <text id="Human_profile" data-name="Human profile" transform="translate(66)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Human profile</tspan></text>
+      <text id="Pet_basics" data-name="Pet basics" transform="translate(66 72)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Pet basics</tspan></text>
+      <rect id="Rectangle_200" data-name="Rectangle 200" width="24" height="24" rx="12" transform="translate(8 74)" fill="#9597a6"/>
+      <text id="Pet_details" data-name="Pet details" transform="translate(66 144)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Pet details</tspan></text>
+      <rect id="Rectangle_201" data-name="Rectangle 201" width="24" height="24" rx="12" transform="translate(8 147)" fill="#9597a6"/>
+      <text id="Confirm" transform="translate(66 216)" fill="#fff" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Confirm</tspan></text>
+      <rect id="Rectangle_202" data-name="Rectangle 202" width="24" height="24" rx="12" transform="translate(8 1)" fill="#9597a6"/>
+      <circle id="Ellipse_89" data-name="Ellipse 89" cx="20" cy="20" r="20" transform="translate(0 212)" fill="#fff"/>
+      <circle id="Ellipse_90" data-name="Ellipse 90" cx="12" cy="12" r="12" transform="translate(8 220)" fill="#545871"/>
+    </g>
+    <g id="Component_3" data-name="Component 3" transform="translate(704 2431)">
+      <line id="Line_116" data-name="Line 116" y2="210" transform="translate(20 15.5)" fill="none" stroke="#9597a6" stroke-width="1"/>
+      <text id="Human_profile-2" data-name="Human profile" transform="translate(66)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Human profile</tspan></text>
+      <text id="Pet_basics-2" data-name="Pet basics" transform="translate(66 72)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Pet basics</tspan></text>
+      <rect id="Rectangle_194" data-name="Rectangle 194" width="24" height="24" rx="12" transform="translate(8 4)" fill="#9597a6"/>
+      <text id="Pet_details-2" data-name="Pet details" transform="translate(66 144)" fill="#fff" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Pet details</tspan></text>
+      <rect id="Rectangle_195" data-name="Rectangle 195" width="24" height="24" rx="12" transform="translate(8 72)" fill="#9597a6"/>
+      <text id="Confirm-2" data-name="Confirm" transform="translate(66 216)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Confirm</tspan></text>
+      <rect id="Rectangle_196" data-name="Rectangle 196" width="24" height="24" rx="12" transform="translate(8 219)" fill="#9597a6"/>
+      <circle id="Ellipse_85" data-name="Ellipse 85" cx="20" cy="20" r="20" transform="translate(0 136)" fill="#fff"/>
+      <circle id="Ellipse_86" data-name="Ellipse 86" cx="12" cy="12" r="12" transform="translate(8 144)" fill="#545871"/>
+    </g>
+    <g id="Component_1" data-name="Component 1" transform="translate(128 2431)" clip-path="url(#clip-path-22)">
+      <line id="Line_192" data-name="Line 192" y2="210" transform="translate(20 24.5)" fill="none" stroke="#9597a6" stroke-width="1"/>
+      <text id="Human_profile-3" data-name="Human profile" transform="translate(66 9)" fill="#fff" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Human profile</tspan></text>
+      <text id="Pet_basics-3" data-name="Pet basics" transform="translate(66 81)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Pet basics</tspan></text>
+      <rect id="Rectangle_347" data-name="Rectangle 347" width="24" height="24" rx="12" transform="translate(8 84)" fill="#9597a6"/>
+      <text id="Pet_details-3" data-name="Pet details" transform="translate(66 153)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Pet details</tspan></text>
+      <rect id="Rectangle_348" data-name="Rectangle 348" width="24" height="24" rx="12" transform="translate(8 156)" fill="#9597a6"/>
+      <text id="Confirm-3" data-name="Confirm" transform="translate(66 225)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Confirm</tspan></text>
+      <rect id="Rectangle_349" data-name="Rectangle 349" width="24" height="24" rx="12" transform="translate(8 228)" fill="#9597a6"/>
+      <circle id="Ellipse_155" data-name="Ellipse 155" cx="20" cy="20" r="20" fill="#fff"/>
+      <circle id="Ellipse_156" data-name="Ellipse 156" cx="12" cy="12" r="12" transform="translate(8 8)" fill="#545871"/>
+    </g>
+    <g id="Component_2" data-name="Component 2" transform="translate(416 2431)" clip-path="url(#clip-path-23)">
+      <line id="Line_114" data-name="Line 114" y2="210" transform="translate(20 15.5)" fill="none" stroke="#9597a6" stroke-width="1"/>
+      <text id="Human_profile-4" data-name="Human profile" transform="translate(66)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Human profile</tspan></text>
+      <text id="Pet_basics-4" data-name="Pet basics" transform="translate(66 72)" fill="#fff" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Pet basics</tspan></text>
+      <rect id="Rectangle_188" data-name="Rectangle 188" width="24" height="24" rx="12" transform="translate(8 1)" fill="#9597a6"/>
+      <text id="Pet_details-4" data-name="Pet details" transform="translate(66 144)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Pet details</tspan></text>
+      <rect id="Rectangle_189" data-name="Rectangle 189" width="24" height="24" rx="12" transform="translate(8 147)" fill="#9597a6"/>
+      <text id="Confirm-4" data-name="Confirm" transform="translate(66 216)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="25">Confirm</tspan></text>
+      <rect id="Rectangle_190" data-name="Rectangle 190" width="24" height="24" rx="12" transform="translate(8 219)" fill="#9597a6"/>
+      <circle id="Ellipse_81" data-name="Ellipse 81" cx="20" cy="20" r="20" transform="translate(0 65)" fill="#fff"/>
+      <circle id="Ellipse_82" data-name="Ellipse 82" cx="12" cy="12" r="12" transform="translate(8 73)" fill="#545871"/>
+    </g>
+    <g transform="translate(240 1206)" clip-path="url(#clip-path-9)">
+      <rect id="Rectangle_420-3" data-name="Rectangle 420" width="288" height="902" fill="#636780"/>
+      <text id="My_Account-6" data-name="My Account" transform="translate(64 51)" fill="#9597a6" font-size="24" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">My Account</tspan></text>
+      <line id="Line_206-3" data-name="Line 206" x2="288" transform="translate(0.5 88.5)" fill="none" stroke="#9597a6" stroke-width="1"/>
+      <text id="PROFILE-3" data-name="PROFILE" transform="translate(64 149)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PROFILE</tspan></text>
+      <text id="PAYMENT_INFO-3" data-name="PAYMENT INFO" transform="translate(64 278)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">PAYMENT INFO</tspan></text>
+      <text id="Contact_info-3" data-name="Contact info" transform="translate(64 216)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Contact info</tspan></text>
+      <text id="Receipts-3" data-name="Receipts" transform="translate(64 345)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Receipts</tspan></text>
+      <text id="Home_address-3" data-name="Home address" transform="translate(64 183)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Home address</tspan></text>
+      <text id="Payment_methods-3" data-name="Payment methods" transform="translate(64 312)" fill="#fff" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Payment methods</tspan></text>
+    </g>
+  </g>
+</svg>

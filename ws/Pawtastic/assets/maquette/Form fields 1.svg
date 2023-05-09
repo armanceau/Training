@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1199" viewBox="0 0 1440 1199">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="608" height="92" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect width="32" height="32" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <rect id="Rectangle_276" data-name="Rectangle 276" width="32" height="32" fill="#545871"/>
+    </clipPath>
+    <filter id="Path_201" x="1021.434" y="424.396" width="20.466" height="21.249" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.561"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-10">
+      <rect id="Rectangle_278" data-name="Rectangle 278" width="32" height="32" transform="translate(-19.6 -17.3)" fill="#545871"/>
+    </clipPath>
+    <clipPath id="clip-path-11">
+      <rect id="Rectangle_279" data-name="Rectangle 279" width="32" height="32" transform="translate(-17.5 -17.3)" fill="#545871"/>
+    </clipPath>
+    <clipPath id="clip-path-12">
+      <rect id="Rectangle_280" data-name="Rectangle 280" width="32" height="32" transform="translate(-15.6 -17.3)" fill="#545871"/>
+    </clipPath>
+    <clipPath id="clip-path-13">
+      <rect width="608" height="95.5" fill="none"/>
+    </clipPath>
+    <filter id="Path_201-2" x="1131.434" y="826.396" width="20.466" height="21.248" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.561"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-20">
+      <rect width="608" height="95" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-22">
+      <rect width="160" height="92" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Form_fields_1">
+      <rect width="1440" height="1199"/>
+    </clipPath>
+  </defs>
+  <g id="Form_fields_1" data-name="Form fields 1" clip-path="url(#clip-Form_fields_1)">
+    <rect width="1440" height="1199" fill="#f7eceb"/>
+    <g id="Input_with_Label" data-name="Input with Label">
+      <g id="Input_with_Label-2" data-name="Input with Label" transform="translate(64 138)" clip-path="url(#clip-path)">
+        <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(0 36)" fill="#fff" stroke="#e6dbda" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <text id="Placeholder_text" data-name="Placeholder text" transform="translate(16 71)" fill="#ebd0ce" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Placeholder text</tspan></text>
+        <text id="Label" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Label</tspan></text>
+      </g>
+      <text id="INPUT_WITH_LABEL-3" data-name="INPUT WITH LABEL" transform="translate(64 102)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">INPUT WITH LABEL</tspan></text>
+      <line id="Line_144" data-name="Line 144" x2="609" transform="translate(64 262)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+    </g>
+    <g id="Input_Active_State" data-name="Input Active State">
+      <text id="INPUT_ACTIVE_STATE-2" data-name="INPUT ACTIVE STATE" transform="translate(64 312)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">INPUT ACTIVE STATE</tspan></text>
+      <line id="Line_147" data-name="Line 147" x2="609" transform="translate(64 472)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+      <g transform="translate(64 348)" clip-path="url(#clip-path)">
+        <g id="Rectangle_2-2" data-name="Rectangle 2" transform="translate(0 36)" fill="#fff" stroke="#9597a6" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <text id="A" transform="translate(16 71)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">A</tspan></text>
+        <text id="Label-2" data-name="Label" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Label</tspan></text>
+      </g>
+    </g>
+    <g id="Input_Error" data-name="Input Error">
+      <g id="Component" transform="translate(64 768)" clip-path="url(#clip-path)">
+        <g id="Rectangle_2-3" data-name="Rectangle 2" transform="translate(0 36)" fill="#fff" stroke="#b8817d" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <text id="Placeholder_text-2" data-name="Placeholder text" transform="translate(16 71)" fill="#ebd0ce" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Placeholder text</tspan></text>
+        <text id="Label_Required" data-name="Label *Required" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Label</tspan><tspan y="0" fill="#545871" font-family="Roboto-Light, Roboto" font-weight="300"> </tspan><tspan y="0" fill="#b8817d">*Required</tspan></text>
+      </g>
+      <text id="INPUT_ERROR-2" data-name="INPUT ERROR" transform="translate(64 732)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">INPUT ERROR</tspan></text>
+      <line id="Line_148" data-name="Line 148" x2="609" transform="translate(64 892)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+    </g>
+    <g id="Input_with_Text" data-name="Input with Text">
+      <text id="INPUT_WITH_TEXT-2" data-name="INPUT WITH TEXT" transform="translate(64 522)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">INPUT WITH TEXT</tspan></text>
+      <line id="Line_150" data-name="Line 150" x2="609" transform="translate(64 682)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+      <g transform="translate(64 558)" clip-path="url(#clip-path)">
+        <g id="Rectangle_2-4" data-name="Rectangle 2" transform="translate(0 36)" fill="#fff" stroke="#9597a6" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <text id="Field_entry" data-name="Field entry" transform="translate(16 71)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Field entry</tspan></text>
+        <text id="Label-3" data-name="Label" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Label</tspan></text>
+      </g>
+    </g>
+    <g id="Toggle_Field" data-name="Toggle Field">
+      <text id="TOGGLE_FIELD_RADIO_BUTTONS_" data-name="TOGGLE FIELD (RADIO BUTTONS)" transform="translate(768 102)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">TOGGLE FIELD (RADIO BUTTONS)</tspan></text>
+      <line id="Line_163" data-name="Line 163" x2="609" transform="translate(768 262)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+      <g id="Toggle_Field-2" data-name="Toggle Field" transform="translate(768 138)" clip-path="url(#clip-path)">
+        <g id="Rectangle_218" data-name="Rectangle 218" transform="translate(0 36)" fill="#fff" stroke="#e6dbda" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <text id="Weight" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Weight</tspan></text>
+        <g id="Group_237" data-name="Group 237" transform="translate(-704 -419)">
+          <rect id="Rectangle_12" data-name="Rectangle 12" width="136" height="36" rx="3" transform="translate(714 465)" fill="#ebd0ce"/>
+          <text id="Option_1" data-name="Option 1" transform="translate(782 490)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 1</tspan></text>
+        </g>
+        <text id="Option_2" data-name="Option 2" transform="translate(228 71)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 2</tspan></text>
+        <text id="Option_3" data-name="Option 3" transform="translate(378 71)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 3</tspan></text>
+        <text id="Option_4" data-name="Option 4" transform="translate(528 71)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 4</tspan></text>
+      </g>
+    </g>
+    <g id="Toggle_Field_on_Hover" data-name="Toggle Field on Hover">
+      <text id="TOGGLE_FIELD_ON_HOVER-2" data-name="TOGGLE FIELD ON HOVER" transform="translate(768 312)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">TOGGLE FIELD ON HOVER</tspan></text>
+      <g id="Toggle_Field-3" data-name="Toggle Field" transform="translate(768 348)" clip-path="url(#clip-path)">
+        <g id="Rectangle_218-2" data-name="Rectangle 218" transform="translate(0 36)" fill="#fff" stroke="#e6dbda" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <text id="Weight-2" data-name="Weight" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Weight</tspan></text>
+        <g id="Group_237-2" data-name="Group 237" transform="translate(-704 -419)">
+          <rect id="Rectangle_12-2" data-name="Rectangle 12" width="136" height="36" rx="3" transform="translate(714 465)" fill="#ebd0ce"/>
+          <text id="Option_1-2" data-name="Option 1" transform="translate(782 490)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 1</tspan></text>
+        </g>
+        <text id="Option_2-2" data-name="Option 2" transform="translate(228 71)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 2</tspan></text>
+        <text id="Option_3-2" data-name="Option 3" transform="translate(378 71)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 3</tspan></text>
+        <text id="Option_4-2" data-name="Option 4" transform="translate(528 71)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 4</tspan></text>
+      </g>
+      <line id="Line_164" data-name="Line 164" x2="609" transform="translate(768 472)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+      <g id="Pointer" transform="translate(1016 418)" clip-path="url(#clip-path-7)">
+        <g id="Group_262" data-name="Group 262" clip-path="url(#clip-path-8)">
+          <g transform="matrix(1, 0, 0, 1, -1016, -418)" filter="url(#Path_201)">
+            <path id="Path_201-3" data-name="Path 201" d="M11.3,20.4c-.3-.4-.6-1.1-1.2-2-.3-.5-1.2-1.5-1.5-1.9a1.183,1.183,0,0,1-.1-1,1.41,1.41,0,0,1,1.4-1.1,2.666,2.666,0,0,1,1.4.7c.2.2.5.6.7.8s.2.3.4.5c.2.3.3.5.2.1-.1-.5-.2-1.3-.4-2.1a8.112,8.112,0,0,0-.3-1.1c-.1-.5-.2-.8-.3-1.3-.1-.3-.2-1.1-.3-1.5a2.273,2.273,0,0,1,.3-1.8,1.227,1.227,0,0,1,1.3-.2,2.567,2.567,0,0,1,.9,1.3,8.3,8.3,0,0,1,.5,2c.2,1,.5,2.5.5,2.8a7.519,7.519,0,0,1,0-1.5,1.12,1.12,0,0,1,.7-.8,2.769,2.769,0,0,1,.9-.1,2.177,2.177,0,0,1,.8.5,4.338,4.338,0,0,1,.4,1.8,9.005,9.005,0,0,1,.3-1.6,1.794,1.794,0,0,1,.7-.5,1.7,1.7,0,0,1,1,0,1.157,1.157,0,0,1,.7.5,8.469,8.469,0,0,1,.4,1.7,5.946,5.946,0,0,1,.3-.7,1.034,1.034,0,0,1,1.9.6v2.3a9.852,9.852,0,0,1-.2,1.7,6.068,6.068,0,0,1-.7,1.4,6.069,6.069,0,0,0-1.2,1.8,4.142,4.142,0,0,0-.1,1,5.527,5.527,0,0,0,.1.9,4.521,4.521,0,0,1-1.2,0,2.132,2.132,0,0,1-1-1.1.385.385,0,0,0-.7,0c-.2.4-.7,1.1-1.1,1.1-.7.1-2.1,0-3.1,0,0,0,.2-1-.2-1.4l-1.1-1.1Z" transform="translate(1016 418)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_263" data-name="Group 263" clip-path="url(#clip-path-8)">
+          <path id="Path_202" data-name="Path 202" d="M11.3,20.4c-.3-.4-.6-1.1-1.2-2-.3-.5-1.2-1.5-1.5-1.9a1.183,1.183,0,0,1-.1-1,1.41,1.41,0,0,1,1.4-1.1,2.666,2.666,0,0,1,1.4.7c.2.2.5.6.7.8s.2.3.4.5c.2.3.3.5.2.1-.1-.5-.2-1.3-.4-2.1a8.112,8.112,0,0,0-.3-1.1c-.1-.5-.2-.8-.3-1.3-.1-.3-.2-1.1-.3-1.5a2.273,2.273,0,0,1,.3-1.8,1.227,1.227,0,0,1,1.3-.2,2.567,2.567,0,0,1,.9,1.3,8.3,8.3,0,0,1,.5,2c.2,1,.5,2.5.5,2.8a7.519,7.519,0,0,1,0-1.5,1.12,1.12,0,0,1,.7-.8,2.769,2.769,0,0,1,.9-.1,2.177,2.177,0,0,1,.8.5,4.338,4.338,0,0,1,.4,1.8,9.005,9.005,0,0,1,.3-1.6,1.794,1.794,0,0,1,.7-.5,1.7,1.7,0,0,1,1,0,1.157,1.157,0,0,1,.7.5,8.469,8.469,0,0,1,.4,1.7,5.946,5.946,0,0,1,.3-.7,1.034,1.034,0,0,1,1.9.6v2.3a9.852,9.852,0,0,1-.2,1.7,6.068,6.068,0,0,1-.7,1.4,6.069,6.069,0,0,0-1.2,1.8,4.142,4.142,0,0,0-.1,1,5.527,5.527,0,0,0,.1.9,4.521,4.521,0,0,1-1.2,0,2.132,2.132,0,0,1-1-1.1.385.385,0,0,0-.7,0c-.2.4-.7,1.1-1.1,1.1-.7.1-2.1,0-3.1,0,0,0,.2-1-.2-1.4l-1.1-1.1Z" fill="none" stroke="#545871" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+        </g>
+        <g id="Group_264" data-name="Group 264" transform="translate(19.6 17.3)" clip-path="url(#clip-path-10)">
+          <line id="Line_155" data-name="Line 155" y1="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+        </g>
+        <g id="Group_265" data-name="Group 265" transform="translate(17.5 17.3)" clip-path="url(#clip-path-11)">
+          <line id="Line_156" data-name="Line 156" x1="0.1" y1="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+        </g>
+        <g id="Group_266" data-name="Group 266" transform="translate(15.6 17.3)" clip-path="url(#clip-path-12)">
+          <line id="Line_157" data-name="Line 157" y2="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+        </g>
+      </g>
+    </g>
+    <g id="Multi_Select" data-name="Multi Select">
+      <text id="MULTI-SELECT" transform="translate(768 522)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">MULTI-SELECT</tspan></text>
+      <line id="Line_165" data-name="Line 165" x2="609" transform="translate(768 682)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+      <g id="Component-2" data-name="Component" transform="translate(768 554)" clip-path="url(#clip-path-13)">
+        <text id="Times_Select_all_that_apply" data-name="Times   Select all that apply" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve">Times   </tspan><tspan y="0" font-family="Roboto-Light, Roboto" font-weight="300">Select all that apply</tspan></text>
+        <g id="Rectangle_231" data-name="Rectangle 231" transform="translate(0 39)" fill="#fff" stroke="#e6dbda" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <line id="Line_127" data-name="Line 127" y2="56" transform="translate(405.5 39.5)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+        <line id="Line_128" data-name="Line 128" y2="56" transform="translate(202.5 39.5)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+        <text id="Morning" transform="translate(91 74)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-36.89" y="0">Morning</tspan></text>
+        <text id="Afternoon" transform="translate(299 74)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-44.385" y="0">Afternoon</tspan></text>
+        <text id="Evening" transform="translate(507 74)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-34.771" y="0">Evening</tspan></text>
+      </g>
+    </g>
+    <g id="Multi_Select_with_Hover_State" data-name="Multi Select with Hover State">
+      <text id="MULTI-SELECT_WITH_HOVER_STATE" data-name="MULTI-SELECT WITH HOVER STATE" transform="translate(768 732)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">MULTI-SELECT WITH HOVER STATE</tspan></text>
+      <line id="Line_166" data-name="Line 166" x2="609" transform="translate(768 892)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+      <g id="Pointer-2" data-name="Pointer" transform="translate(1126 820)" clip-path="url(#clip-path-7)">
+        <g id="Group_262-2" data-name="Group 262" clip-path="url(#clip-path-8)">
+          <g transform="matrix(1, 0, 0, 1, -1126, -820)" filter="url(#Path_201-2)">
+            <path id="Path_201-4" data-name="Path 201" d="M11.3,20.4c-.3-.4-.6-1.1-1.2-2-.3-.5-1.2-1.5-1.5-1.9a1.183,1.183,0,0,1-.1-1,1.41,1.41,0,0,1,1.4-1.1,2.666,2.666,0,0,1,1.4.7c.2.2.5.6.7.8s.2.3.4.5c.2.3.3.5.2.1-.1-.5-.2-1.3-.4-2.1a8.112,8.112,0,0,0-.3-1.1c-.1-.5-.2-.8-.3-1.3-.1-.3-.2-1.1-.3-1.5a2.273,2.273,0,0,1,.3-1.8,1.227,1.227,0,0,1,1.3-.2,2.567,2.567,0,0,1,.9,1.3,8.3,8.3,0,0,1,.5,2c.2,1,.5,2.5.5,2.8a7.519,7.519,0,0,1,0-1.5,1.12,1.12,0,0,1,.7-.8,2.769,2.769,0,0,1,.9-.1,2.177,2.177,0,0,1,.8.5,4.338,4.338,0,0,1,.4,1.8,9.005,9.005,0,0,1,.3-1.6,1.794,1.794,0,0,1,.7-.5,1.7,1.7,0,0,1,1,0,1.157,1.157,0,0,1,.7.5,8.469,8.469,0,0,1,.4,1.7,5.946,5.946,0,0,1,.3-.7,1.034,1.034,0,0,1,1.9.6v2.3a9.852,9.852,0,0,1-.2,1.7,6.068,6.068,0,0,1-.7,1.4,6.069,6.069,0,0,0-1.2,1.8,4.142,4.142,0,0,0-.1,1,5.527,5.527,0,0,0,.1.9,4.521,4.521,0,0,1-1.2,0,2.132,2.132,0,0,1-1-1.1.385.385,0,0,0-.7,0c-.2.4-.7,1.1-1.1,1.1-.7.1-2.1,0-3.1,0,0,0,.2-1-.2-1.4l-1.1-1.1Z" transform="translate(1126 820)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_263-2" data-name="Group 263" clip-path="url(#clip-path-8)">
+          <path id="Path_202-2" data-name="Path 202" d="M11.3,20.4c-.3-.4-.6-1.1-1.2-2-.3-.5-1.2-1.5-1.5-1.9a1.183,1.183,0,0,1-.1-1,1.41,1.41,0,0,1,1.4-1.1,2.666,2.666,0,0,1,1.4.7c.2.2.5.6.7.8s.2.3.4.5c.2.3.3.5.2.1-.1-.5-.2-1.3-.4-2.1a8.112,8.112,0,0,0-.3-1.1c-.1-.5-.2-.8-.3-1.3-.1-.3-.2-1.1-.3-1.5a2.273,2.273,0,0,1,.3-1.8,1.227,1.227,0,0,1,1.3-.2,2.567,2.567,0,0,1,.9,1.3,8.3,8.3,0,0,1,.5,2c.2,1,.5,2.5.5,2.8a7.519,7.519,0,0,1,0-1.5,1.12,1.12,0,0,1,.7-.8,2.769,2.769,0,0,1,.9-.1,2.177,2.177,0,0,1,.8.5,4.338,4.338,0,0,1,.4,1.8,9.005,9.005,0,0,1,.3-1.6,1.794,1.794,0,0,1,.7-.5,1.7,1.7,0,0,1,1,0,1.157,1.157,0,0,1,.7.5,8.469,8.469,0,0,1,.4,1.7,5.946,5.946,0,0,1,.3-.7,1.034,1.034,0,0,1,1.9.6v2.3a9.852,9.852,0,0,1-.2,1.7,6.068,6.068,0,0,1-.7,1.4,6.069,6.069,0,0,0-1.2,1.8,4.142,4.142,0,0,0-.1,1,5.527,5.527,0,0,0,.1.9,4.521,4.521,0,0,1-1.2,0,2.132,2.132,0,0,1-1-1.1.385.385,0,0,0-.7,0c-.2.4-.7,1.1-1.1,1.1-.7.1-2.1,0-3.1,0,0,0,.2-1-.2-1.4l-1.1-1.1Z" fill="none" stroke="#545871" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.75"/>
+        </g>
+        <g id="Group_264-2" data-name="Group 264" transform="translate(19.6 17.3)" clip-path="url(#clip-path-10)">
+          <line id="Line_155-2" data-name="Line 155" y1="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+        </g>
+        <g id="Group_265-2" data-name="Group 265" transform="translate(17.5 17.3)" clip-path="url(#clip-path-11)">
+          <line id="Line_156-2" data-name="Line 156" x1="0.1" y1="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+        </g>
+        <g id="Group_266-2" data-name="Group 266" transform="translate(15.6 17.3)" clip-path="url(#clip-path-12)">
+          <line id="Line_157-2" data-name="Line 157" y2="3.4" fill="none" stroke="#545871" stroke-linecap="round" stroke-width="0.75"/>
+        </g>
+      </g>
+      <g transform="translate(768 764.5)" clip-path="url(#clip-path-20)">
+        <text id="Label_Label_help_text_styled_this_way" data-name="Label – Label help text styled this way" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Label </tspan><tspan y="0" font-family="Roboto-Light, Roboto" font-weight="300">– Label help text styled this way</tspan></text>
+        <g id="Rectangle_271" data-name="Rectangle 271" transform="translate(0 39)" fill="#fff" stroke="#e6dbda" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <rect id="Rectangle_284" data-name="Rectangle 284" width="203" height="54" transform="translate(202.5 40)" fill="#f0f1f7"/>
+        <line id="Line_133" data-name="Line 133" y2="55" transform="translate(405.5 39.5)" fill="none" stroke="#dadbe6" stroke-width="1"/>
+        <line id="Line_172" data-name="Line 172" y2="55" transform="translate(202.5 39.5)" fill="none" stroke="#dadbe6" stroke-width="1"/>
+        <text id="Option_1-3" data-name="Option 1" transform="translate(30 55)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="33.51" y="21">Option 1</tspan></text>
+        <text id="Option_2-3" data-name="Option 2" transform="translate(299 75)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 2</tspan></text>
+        <text id="Option_3-3" data-name="Option 3" transform="translate(507 75)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 3</tspan></text>
+      </g>
+    </g>
+    <g id="Multi_Select_with_Item_Selected" data-name="Multi Select with Item Selected">
+      <text id="MULTI-SELECT_WITH_ITEM_SELECTED" data-name="MULTI-SELECT WITH ITEM SELECTED" transform="translate(768 942)" fill="#9597a6" font-size="12" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">MULTI-SELECT WITH ITEM SELECTED</tspan></text>
+      <line id="Line_170" data-name="Line 170" x2="609" transform="translate(768 1102)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+      <g transform="translate(768 974.5)" clip-path="url(#clip-path-20)">
+        <text id="Label_Label_help_text_styled_this_way-2" data-name="Label – Label help text styled this way" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Label </tspan><tspan y="0" font-family="Roboto-Light, Roboto" font-weight="300">– Label help text styled this way</tspan></text>
+        <g id="Rectangle_285" data-name="Rectangle 285" transform="translate(0 39)" fill="#fff" stroke="#e6dbda" stroke-width="1">
+          <rect width="608" height="56" rx="5" stroke="none"/>
+          <rect x="0.5" y="0.5" width="607" height="55" rx="4.5" fill="none"/>
+        </g>
+        <path id="Rectangle_286" data-name="Rectangle 286" d="M5,0H202.67a0,0,0,0,1,0,0V56a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(0 39)" fill="#ebd0ce"/>
+        <line id="Line_171" data-name="Line 171" y2="55" transform="translate(405.5 39.5)" fill="none" stroke="#dadbe6" stroke-width="1"/>
+        <text id="Option_selected" data-name="Option selected" transform="translate(30 55)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="1.508" y="21">Option selected</tspan></text>
+        <text id="Option_2-4" data-name="Option 2" transform="translate(299 75)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 2</tspan></text>
+        <text id="Option_3-4" data-name="Option 3" transform="translate(507 75)" fill="#545871" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="-37.49" y="0">Option 3</tspan></text>
+      </g>
+    </g>
+    <g id="Bar_Back_Next" data-name="Bar Back Next" transform="translate(64 930)" clip-path="url(#clip-path-22)">
+      <g id="Rectangle_233" data-name="Rectangle 233" transform="translate(0 36)" fill="#fff" stroke="#e6dbda" stroke-width="1">
+        <rect width="160" height="56" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="159" height="55" rx="4.5" fill="none"/>
+      </g>
+      <text id="_01_Jan" data-name="01 Jan" transform="translate(11 72)" fill="#ebd0ce" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">01 Jan</tspan></text>
+      <text id="State" transform="translate(0 20)" fill="#9597a6" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">State</tspan></text>
+      <line id="Line_129" data-name="Line 129" y2="55" transform="translate(107.5 36.5)" fill="none" stroke="#e6dbda" stroke-width="1"/>
+      <path id="Path_197" data-name="Path 197" d="M5692,500.9h16l-8,8Z" transform="translate(-5568 -439.903)" fill="#e6dbda"/>
+    </g>
+  </g>
+</svg>
