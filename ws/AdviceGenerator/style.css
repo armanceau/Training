@@ -58,7 +58,10 @@ body{
     color: #CEE3E9;
 
     max-width: 80%;
-    max-height: 80%;
+    max-height: 30%;
+
+    min-width: 80%;
+    min-height: 30%;
 
     font-family: 'Manrope', sans-serif;
     font-size: 28px;
