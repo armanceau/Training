@@ -1,0 +1,18 @@
+.container {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      .link {
+        padding: 10px;
+      }
+      
+      .image-container {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      #image-preview {
+        max-width: 300px;
+        max-height: 300px;
+      }
