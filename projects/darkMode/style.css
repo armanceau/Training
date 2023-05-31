@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;/* 1rem = 10px*/
+}
+
+body{
+    font-size: 1.4rem;/* soit 14px*/
+    font-family: arial;
+    color: white;
+}
+
+.container{
+    background-color: #2C3C54;/*nouvelle couleur de fond*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;/*A ajouter*/
+}
+
+.container-change{
+    background-color: #CBE6FF;
+}
+
+.banniere-titre{
+    margin-bottom: 1rem;
+}
+
+.switch{
+    width: 90px;
+    height: 30px;
+    background-color: #1E2939;
+    border-radius: 15px;
+    position: relative;/*Permet de positionner l'icône en absolute*/
+    border: 1px solid #1E2939;
+    padding: 1rem;
+}
+
+.btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+
+.switch i{
+    position: absolute;
+    color: #FFD363;
+    top: 6px;
+    right: 23px;
+}
+
+.btn-change{
+    right: -1px;
+    left: auto;
+}
+
+.icon-change{
+    left: 20px;
+}
+
+.switch-change{
+    background-color: #61b3ff;
+    border: 1px solid #61b3ff;
+}
