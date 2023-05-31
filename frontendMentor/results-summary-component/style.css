@@ -1,0 +1,228 @@
+@import url('/frontendMentor/results-summary-component/assets/fonts/static/HankenGrotesk-Medium.ttf');
+
+@font-face {
+	font-family: 'HankenGrotesk';
+	src: url('/frontendMentor/results-summary-component/assets/fonts/static/HankenGrotesk-Medium.ttf');
+}
+
+html{
+	height: 100%;
+	width: 100%;
+
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+
+	padding: 0;
+	margin: 0;
+
+	font-family: 'HankenGrotesk', sans-serif;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+
+	font-size: 18px;
+}
+
+.container{
+	padding: 0;
+	margin: 0;
+
+	height: fit-content;
+	width: 50%;
+
+	display: flex;
+	justify-content: center;
+	
+	border-radius: 25px;
+	box-shadow: 15px 15px 15px hsl(221, 100%, 96%);
+}
+
+.left{
+	width: 50%;
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	color: #fff;
+
+	border-radius: 25px;
+}
+
+.left-header{
+	margin-top: 10%;
+	opacity: .8;
+}
+
+.left-main{
+	height: 40%;
+
+	display: flex;
+	flex-direction: column;
+
+	text-align: center;
+	justify-content: center;
+}
+
+.circle{
+	width: 150px;
+	height: 150px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+
+	border-radius: 999px;
+
+	background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.left-main-number-top{
+	font-size: 4rem;
+	font-weight:800;
+}
+
+.left-main-number-bottom{
+	font-weight: 400;
+	opacity: .5;
+}
+
+.left-footer{
+	font-size: 0.9rem;
+	opacity: .8;
+
+	text-align: center;
+}
+
+.right{
+	width: 50%;
+	height: auto;
+
+	margin-left: 5%;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	gap: 25px;
+}
+
+.right-header{
+	margin-top: 5%;
+}
+
+.right-main{
+	width: 85%;
+
+	gap: 15px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.right-footer{
+	display: flex;
+	justify-content: center;
+	width: 85%;
+}
+
+.right-main-element{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+
+	border-radius: 15px;
+	padding: 0px 5px 0px 5px;
+}
+
+.right-main-element-left{
+	width: 48%;
+	margin-left: 2%;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	gap: 10px;
+}
+
+.right-main-element-right{
+	width: 50%;
+	text-align: center;
+}
+
+.reaction{
+	background-color: hsla(0, 100%, 67%, .1);
+
+	width: 85%;
+}
+
+.reaction-number{
+	color: hsl(0, 100%, 67%);
+}
+
+.memory{
+	background-color: hsla(39, 100%, 56%, .1);
+
+	width: 85%;
+}
+
+.memory-number{
+	color: hsl(39, 100%, 56%);
+}
+
+.verbal{
+	background-color: hsla(166, 100%, 37%, .1);
+
+	width: 85%;
+}
+
+.verbal-number{
+	color: hsl(166, 100%, 37%);
+}
+
+.visual{
+	background-color: hsla(234, 85%, 45%, .1);
+
+	width: 85%;
+}
+
+.visual-number{
+	color: hsl(234, 85%, 45%);
+}
+
+input{
+	width: 100%;
+
+	background-color: hsl(224, 30%, 27%);
+	color: #fff;
+
+	padding: 15px 0px 15px 0px;
+
+	border-radius: 30px;
+	border: none;
+
+	transition: .5s;
+
+	cursor: pointer;
+}
+
+input:hover{
+	background-color: hsl(241, 81%, 54%);
+}
