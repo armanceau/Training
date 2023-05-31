@@ -35,7 +35,7 @@ body{
 	margin: 0;
 
 	height: fit-content;
-	width: 50%;
+	width: 40%;
 
 	display: flex;
 	justify-content: center;
@@ -52,16 +52,16 @@ body{
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 
 	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 	color: #fff;
 
 	border-radius: 25px;
+	gap: 25px;
 }
 
 .left-header{
-	margin-top: 10%;
 	opacity: .8;
 }
 
@@ -101,10 +101,22 @@ body{
 }
 
 .left-footer{
-	font-size: 0.9rem;
-	opacity: .8;
+	width: 60%;
+	/* height: 20%; */
+
 
 	text-align: center;
+}
+
+.left-footer-title{
+	opacity: 1;
+	font-size: 2rem;
+	margin: 0;
+}
+
+.left-footer-p{
+	font-size: 0.9rem;
+	opacity: .8;
 }
 
 .right{
@@ -118,11 +130,7 @@ body{
 	flex-wrap: wrap;
 	justify-content: center;
 
-	gap: 25px;
-}
-
-.right-header{
-	margin-top: 5%;
+	gap: 10px;
 }
 
 .right-main{
@@ -133,12 +141,15 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 .right-footer{
 	display: flex;
 	justify-content: center;
 	width: 85%;
+	margin-bottom: 10%;
 }
 
 .right-main-element{
@@ -208,7 +219,7 @@ body{
 }
 
 input{
-	width: 100%;
+	width: 85%;
 
 	background-color: hsl(224, 30%, 27%);
 	color: #fff;
@@ -225,4 +236,22 @@ input{
 
 input:hover{
 	background-color: hsl(241, 81%, 54%);
+}
+
+.number-grey{
+	opacity: .5;
+}
+
+h1{
+	opacity: 1;
+}
+
+@media (max-width: 375px){
+	.container{
+		width: 100%;
+		flex-direction: column;
+	}
+	.left, .right{
+		width: 100%;
+	}
 }
