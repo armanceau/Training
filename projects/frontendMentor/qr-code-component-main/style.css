@@ -1,0 +1,41 @@
+html{
+	width: 100%;
+	height: 100%;
+
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+
+	padding: 0;
+	margin: 0;
+
+	font-size: 15px;
+	font-family: 'Outfit';
+
+	background-color: hsl(212, 45%, 89%);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container{
+	width: 18%;
+	height: 50%;
+
+	background-color: hsl(0, 0%, 100%);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	border-radius: 15px;
+}
+
+.header{
+	margin-top: 5%;
+}
