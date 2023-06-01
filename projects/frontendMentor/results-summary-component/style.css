@@ -35,7 +35,7 @@ body{
 	margin: 0;
 
 	height: fit-content;
-	width: 40%;
+	width: 55%;
 
 	display: flex;
 	justify-content: center;
@@ -63,6 +63,7 @@ body{
 
 .left-header{
 	opacity: .8;
+	margin-top: -10%;
 }
 
 .left-main{
@@ -124,6 +125,7 @@ body{
 	height: auto;
 
 	margin-left: 5%;
+	margin-top: 2%;
 
 	display: flex;
 	flex-direction: column;
