@@ -34,8 +34,31 @@ body{
 	align-items: center;
 
 	border-radius: 15px;
+
+	gap: 15px;
 }
 
 .header{
 	margin-top: 5%;
+
+	text-align: center;
+}
+
+img{
+	width: 91%;
+	height: 91%;
+	border-radius: 15px;
+}
+
+.main{
+	width: 91%;
+	text-align: center;
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+}
+
+.footer{
+	width: 91%;
+	text-align: center;
+	color: hsl(220, 15%, 55%);
 }
