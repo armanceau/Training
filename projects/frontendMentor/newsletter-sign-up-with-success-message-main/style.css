@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('/projects/frontendMentor/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Regular.ttf');
+}
+
+html{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    background-color: hsl(235, 18%, 26%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: hsl(234, 29%, 20%);
+}
+
+.index-container{
+    width: 53%;
+    height: 60%;
+    
+    background-color: hsl(0, 0%, 100%);
+
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.right{
+    width: 50%;
+    height: 90%;
+}
+
+.right>div{
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    width: 50%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.left-header{
+    width: 90%;
+    height: 20%;
+
+    display: flex;
+    align-items: end;
+
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.left-header>div{
+    margin-bottom: 4%;
+}
+
+.left-main{
+    width: 90%;
+    height: 40%;
+}
+
+.left-main-elements{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.left-main-element{
+    display: flex;
+
+    
+}
+
+.left-footer{
+    width: 90%;
+    height: 40%;
+}
