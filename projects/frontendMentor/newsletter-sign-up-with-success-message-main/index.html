@@ -25,6 +25,8 @@
 					Join 60,000+ product managers receiving monthly updates on:
 				</div>
 
+				<br>
+
 				<div class="left-main-elements">
 					<div class="left-main-element">
 						<div>
@@ -58,22 +60,24 @@
 
 			<section class="left-footer">
 				<div class="left-footer-email">
-					<div>
-						Email address
+					<div class="left-footer-email-message">
+						<div>
+							Email address
+						</div>
+	
+						<!-- div error message -->
+						<div id="left-footer-email-message-invalid">
+							Valid email required
+						</div>
 					</div>
 
-					<!-- div error message -->
 					<div>
-
+						<input class="rounded" id="inputMail" onkeydown="testMail()" type="text" placeholder="email@company.com">
 					</div>
 				</div>
 
 				<div>
-					<input type="text" placeholder="email@company.com">
-				</div>
-
-				<div>
-					<input id="subscribeBtn" type="submit" value="Subscribe to monthly newsletter">
+					<input class="rounded" id="subscribeBtn" type="submit" value="Subscribe to monthly newsletter">
 				</div>
 			</section>
 		</section>

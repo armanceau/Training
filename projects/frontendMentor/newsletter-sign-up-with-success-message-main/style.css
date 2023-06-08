@@ -64,7 +64,7 @@ body{
 }
 
 .left-header{
-    width: 90%;
+    width: 95%;
     height: 20%;
 
     display: flex;
@@ -72,30 +72,158 @@ body{
 
     font-size: 3rem;
     font-weight: 700;
-}
 
-.left-header>div{
-    margin-bottom: 4%;
+    margin-bottom: -20px;
 }
 
 .left-main{
-    width: 90%;
-    height: 40%;
+    width: 95%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .left-main-elements{
     display: flex;
     flex-direction: column;
-
+    gap: 10px;
 }
 
 .left-main-element{
     display: flex;
-
+    gap: 10px;
     
 }
 
 .left-footer{
-    width: 90%;
+    width: 95%;
+    height: 30%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: start;
+}
+
+.left-footer-email-message{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+#left-footer-email-message-invalid{
+    color: hsl(4, 100%, 67%);
+    display: none;
+}
+
+.left-footer-email{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rounded{
+    padding: 15px 10px 15px 10px;
+
+    border-radius: 5px;
+    border: none;
+}
+
+#inputMail{
+    width: 94%;
+
+    border: 1px solid lightgray;
+    color: hsl(235, 18%, 26%);
+}
+
+#subscribeBtn{
+    width: 100%;
+
+    background-color: hsl(235, 18%, 26%);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.succes-container{
+    height: 50%;
+    width: 30%;
+
+    background-color: hsl(0, 0%, 100%);
+
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+.succes-header{
+    width: 80%;
+    height: 25%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.succes-main{
+    width: 80%;
     height: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.succes-footer{
+    width: 80%;
+    height: 35%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.succes-footer > div {
+    width: 100%;
+}
+
+.succes-main-title{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.succes-main-p{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.succes-main-span{
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+#dismissBtn{
+    width: 100%;
+
+    background-color: hsl(235, 18%, 26%);
+    color: #fff;
+    cursor: pointer;
 }
