@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    width: 28%;
+    height: 60%;
+  
+    background-color: hsl(216, 50%, 16%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 10px;
+
+}
+
+header{
+    margin-top: 5%;
+}
+
+header > img{
+    border-radius: 10px;
+}
+
+main{
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.main-header{
+    font-size: 1.1em;
+    color: hsl(0, 0%, 100%);
+}
+
+.main-main{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.8em;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+.main-footer-left{
+    display: flex;
+    gap: 5px;
+    color: hsl(178, 100%, 50%);
+}
+
+.main-footer-right{
+    display: flex;
+    gap: 5px;
+    color: hsl(215, 51%, 70%);
+}
+
+footer{
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 15px;
+}
+
+.footer-icon-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-icon > img{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 999px;
+}
+
+.footer-text{
+    color: hsl(215, 51%, 70%);
+    font-size: 0.8em;
+}
+
+.footer-text > span{
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+
