@@ -24,8 +24,8 @@ body{
 }
 
 .container{
-    width: 28%;
-    height: 60%;
+    width: 300px;
+    height: 500px;
   
     background-color: hsl(216, 50%, 16%);
 
