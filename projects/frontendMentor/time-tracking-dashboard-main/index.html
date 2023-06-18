@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+  
+  	<title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+
+	<div class="container">
+		<section class="profil">
+			<div class="profil-profil">
+				<div>
+					<img src="/projects/frontendMentor/time-tracking-dashboard-main/images/image-jeremy.png" alt="Porfil picture">
+				</div>
+
+				<div class="profil-profil-text">
+					Report for
+					<br>
+					<h1>Jeremy Robson</h1>
+				</div>
+			</div>
+
+			<div class="profil-filter">
+				<div id="daily">Daily</div>
+				<div id="weekly">Weekly</div>
+				<div id="monthly">Monthly</div>
+			</div>
+
+		</section>
+
+		<section class="dashboard">
+			<div class="dashboard-element">
+				<div class="dashboard-element-img">
+				</div>
+
+				<div class="dashboard-element-header">
+					<div class="dashboard-element-header-title">Work</div>
+					<div class="dashboard-element-header-svg">
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+					</div>
+				</div>
+
+				<div class="dashboard-element-main">
+					<div class="dashboard-element-main-number" id="work-current-number">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+					<div class="dashboard-element-main-text">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+				</div>
+
+				<div class="dashboard-element-footer">
+					<div class="dashboard-element-footer-text">
+						Last <span class="previous-time"></span> - <span id="work-previous-number"></span>hrs</span>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+	</div>
+
+</body>
+<script src="script.js"></script>
+</html>

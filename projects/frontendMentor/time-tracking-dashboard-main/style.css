@@ -1,0 +1,13 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	height: 100%;
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
+}
