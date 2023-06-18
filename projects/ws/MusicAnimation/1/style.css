@@ -1,78 +1,97 @@
 html{
     height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+	background-color: #000;
 }
 
 .container{
-    height: 100%;
-    background-color: #000;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  .content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
-    height: 100px;
-  }
-  
-  .trait{
-    width: 5px;
-    border-radius: 50px;
-    position: relative;
-  }
-  
-  .bleuClair{
-    background-color: #00b7c2;
-    height: 30px;
-    animation: agrandir 1s infinite;
-  
-  }
-  
-  .bleuFonce{
-    background-color: #07686f;
-    height: 30px;
-    animation: agrandir 1s infinite;
-    animation-delay: .2s;
-  }
-  
-  .Jaune{
-    background-color: #f0a500;
-    height: 30px;
-    animation: agrandir 1s infinite;
-    animation-delay: .5s;
-  
-  }
-  
-  .RougeFonce{
-    background-color: #821752;
-    height: 30px;
-    animation: agrandir 1s infinite;
-    animation-delay: .7s;
-  }
-  
-  .RougeClair{
-    background-color: #ff414d;
-    height: 30px;
-    animation: agrandir 1s infinite;
-    animation-delay: .9s;
-  }
-  
-  @keyframes agrandir {
-    0% {
-      height: 30px;
-      top: 0;
-    }
-    50% {
-      height: 100px;
-      top: -35px;
-    }
-    100% {
-      height: 30px;
-      top: 0;
-    }
-  }
+	height: 380px;
+	width: 375px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 5px;
+	height: 100px;
+}
+
+.trait{
+width: 5px;
+border-radius: 50px;
+position: relative;
+}
+
+.bleuClair{
+background-color: #00b7c2;
+height: 30px;
+animation: agrandir 1s infinite;
+
+}
+
+.bleuFonce{
+background-color: #07686f;
+height: 30px;
+animation: agrandir 1s infinite;
+animation-delay: .2s;
+}
+
+.Jaune{
+background-color: #f0a500;
+height: 30px;
+animation: agrandir 1s infinite;
+animation-delay: .5s;
+
+}
+
+.RougeFonce{
+background-color: #821752;
+height: 30px;
+animation: agrandir 1s infinite;
+animation-delay: .7s;
+}
+
+.RougeClair{
+background-color: #ff414d;
+height: 30px;
+animation: agrandir 1s infinite;
+animation-delay: .9s;
+}
+
+@keyframes agrandir {
+0% {
+  height: 30px;
+  top: 0;
+}
+50% {
+  height: 100px;
+  top: -35px;
+}
+100% {
+  height: 30px;
+  top: 0;
+}
+}
