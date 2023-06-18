@@ -156,8 +156,8 @@ body{
 
 
 .succes-container{
-    height: 50%;
-    width: 30%;
+    width: 350px;
+    height: 500px;
 
     background-color: hsl(0, 0%, 100%);
 
@@ -246,6 +246,7 @@ body{
         height: 100%;
 		flex-direction: column;
 	}
+
     .left{
 		display: flex;
         justify-content: center;
