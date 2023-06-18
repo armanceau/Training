@@ -1,0 +1,122 @@
+html{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+
+    background-color: hsl(185, 75%, 39%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.container{
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+
+    margin: 0;
+    padding: 0;
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+
+    box-shadow: 6.1px 12.2px 12.2px hsl(0deg 0% 0% / 0.31);
+
+}
+
+header{
+    height: 35%;
+    width: 100%;
+
+    background-image: url('/projects/frontendMentor/profile-card-component-main/images/bg-pattern-card.svg');
+
+    border-radius: 15px 15px 0px 0px;
+}
+
+main{
+    height: 40%;
+    width: 70%;  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+main > section > img{
+    margin-top: -50%;
+    border: 5px solid #fff;
+    border-radius: 999px;
+}
+
+.profil{
+    display: flex;
+    gap: 20px;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.age, .city{
+    color: hsl(0, 0%, 59%);
+}
+
+.line{
+    height: 5%;
+    width: 100%;
+    border-top: 1px solid hsl(0, 0%, 59%);
+}
+
+footer{
+    height: 20%;
+    width: 70%;  
+    display: flex; 
+    text-align: center;
+    gap: 30px;
+}
+
+.footer-element{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-element-number{
+    font-weight: 700;
+}
+
+.footer-element-text{
+    font-size: .8em;
+    color: hsl(0, 0%, 59%);
+}
+
+.bg-top {
+    position: absolute;
+    left: -600px;
+    top: -800px;
+    z-index: 1;
+}
+
+
+
