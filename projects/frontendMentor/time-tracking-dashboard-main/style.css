@@ -20,7 +20,7 @@ body {
 }
 
 .container{
-	width: 60%;
+	width: 70%;
 	height: 500px;
 
 	display: flex;
@@ -32,7 +32,7 @@ body {
 .profil{
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 25%;
 	height: 100%;
 	border: 1px solid green;
 	background-color: hsl(235, 46%, 20%);
@@ -71,3 +71,102 @@ body {
 .profil-filter-element:hover{
 	color: #fff;
 }
+
+.dashboard {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 40px;
+	width: 75%;
+	height: 100%;
+	color: #fff;
+}
+  
+.dashboard-element {
+	flex-basis: calc(33.33% - 40px);
+	background-color: hsl(235, 46%, 20%);
+	border-radius: 25px;
+	width: calc((75% - 40px * 2) / 3);
+}
+  
+.dashboard-element-img-work {
+	height: 25%;
+	width: 100%;
+	background-size:contain;
+	background-position: right;
+	background-color: hsl(15, 100%, 70%);
+	border-radius: 25px 25px 0px 0px;
+}
+
+.dashboard-element-img-play {
+	height: 25%;
+	width: 100%;
+	background-size:contain;
+	background-position: right;
+	background-color: hsl(195, 74%, 62%);
+	border-radius: 25px 25px 0px 0px;
+}
+
+.dashboard-element-img-study {
+	height: 25%;
+	width: 100%;
+	background-size:contain;
+	background-position: right;
+	background-color: hsl(348, 100%, 68%);
+	border-radius: 25px 25px 0px 0px;
+}
+
+.dashboard-element-img-exercice {
+	height: 25%;
+	width: 100%;
+	background-size:contain;
+	background-position: right;
+	background-color: hsl(145, 58%, 55%);
+	border-radius: 25px 25px 0px 0px;
+}
+
+.dashboard-element-img-exercice {
+	height: 25%;
+	width: 100%;
+	background-size:contain;
+	background-position: right;
+	background-color: hsl(145, 58%, 55%);
+	border-radius: 25px 25px 0px 0px;
+}
+
+.dashboard-element-img-social {
+	height: 25%;
+	width: 100%;
+	background-size:contain;
+	background-position: right;
+	background-color: hsl(264, 64%, 52%);
+	border-radius: 25px 25px 0px 0px;
+}
+
+.dashboard-element-img-selcare {
+	height: 25%;
+	width: 100%;
+	background-size:contain;
+	background-position: right;
+	background-color: hsl(43, 84%, 65%);
+	border-radius: 25px 25px 0px 0px;
+}
+
+
+.dashboard-element-header{
+	height: 10%;
+	border-radius: 25px;
+	margin-top: -10px;
+	background-color: hsl(235, 46%, 20%);
+	z-index: 8;
+}
+
+.dashboard-element-main{
+	height: 30%;
+}
+
+.dashboard-element-footer{
+	height: 50%;
+}
+  
+  
