@@ -19,7 +19,7 @@
 		<section class="profil">
 			<div class="profil-profil">
 				<div>
-					<img src="/projects/frontendMentor/time-tracking-dashboard-main/images/image-jeremy.png" alt="Porfil picture">
+					<img src="/projects/frontendMentor/time-tracking-dashboard-main/images/image-jeremy.png" alt="Porfil picture" width="50" height="50">
 				</div>
 
 				<div class="profil-profil-text">
@@ -30,16 +30,17 @@
 			</div>
 
 			<div class="profil-filter">
-				<div id="daily">Daily</div>
-				<div id="weekly">Weekly</div>
-				<div id="monthly">Monthly</div>
+				<div class="profil-filter-element" id="daily">Daily</div>
+				<div class="profil-filter-element" id="weekly">Weekly</div>
+				<div class="profil-filter-element" id="monthly">Monthly</div>
 			</div>
 
 		</section>
 
 		<section class="dashboard">
 			<div class="dashboard-element">
-				<div class="dashboard-element-img">
+				<div class="dashboard-element-img-work">
+					
 				</div>
 
 				<div class="dashboard-element-header">
@@ -63,8 +64,150 @@
 						Last <span class="previous-time"></span> - <span id="work-previous-number"></span>hrs</span>
 					</div>
 				</div>
-
 			</div>
+
+			<div class="dashboard-element">
+				<div class="dashboard-element-img-play">
+					
+				</div>
+
+				<div class="dashboard-element-header">
+					<div class="dashboard-element-header-title">Play</div>
+					<div class="dashboard-element-header-svg">
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+					</div>
+				</div>
+
+				<div class="dashboard-element-main">
+					<div class="dashboard-element-main-number" id="play-current-number">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+					<div class="dashboard-element-main-text">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+				</div>
+
+				<div class="dashboard-element-footer">
+					<div class="dashboard-element-footer-text">
+						Last <span class="previous-time"></span> - <span id="play-previous-number"></span>hrs</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="dashboard-element">
+				<div class="dashboard-element-img-study">
+					
+				</div>
+
+				<div class="dashboard-element-header">
+					<div class="dashboard-element-header-title">Study</div>
+					<div class="dashboard-element-header-svg">
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+					</div>
+				</div>
+
+				<div class="dashboard-element-main">
+					<div class="dashboard-element-main-number" id="study-current-number">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+					<div class="dashboard-element-main-text">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+				</div>
+
+				<div class="dashboard-element-footer">
+					<div class="dashboard-element-footer-text">
+						Last <span class="previous-time"></span> - <span id="study-previous-number"></span>hrs</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="dashboard-element">
+				<div class="dashboard-element-img-exercice">
+					
+				</div>
+
+				<div class="dashboard-element-header">
+					<div class="dashboard-element-header-title">Exercise</div>
+					<div class="dashboard-element-header-svg">
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+					</div>
+				</div>
+
+				<div class="dashboard-element-main">
+					<div class="dashboard-element-main-number" id="exercice-current-number">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+					<div class="dashboard-element-main-text">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+				</div>
+
+				<div class="dashboard-element-footer">
+					<div class="dashboard-element-footer-text">
+						Last <span class="previous-time"></span> - <span id="exercice-previous-number"></span>hrs</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="dashboard-element">
+				<div class="dashboard-element-img-social">
+					
+				</div>
+
+				<div class="dashboard-element-header">
+					<div class="dashboard-element-header-title">Social</div>
+					<div class="dashboard-element-header-svg">
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+					</div>
+				</div>
+
+				<div class="dashboard-element-main">
+					<div class="dashboard-element-main-number" id="social-current-number">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+					<div class="dashboard-element-main-text">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+				</div>
+
+				<div class="dashboard-element-footer">
+					<div class="dashboard-element-footer-text">
+						Last <span class="previous-time"></span> - <span id="social-previous-number"></span>hrs</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="dashboard-element">
+				<div class="dashboard-element-img-selcare">
+					
+				</div>
+
+				<div class="dashboard-element-header">
+					<div class="dashboard-element-header-title">Self care</div>
+					<div class="dashboard-element-header-svg">
+						<svg width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+					</div>
+				</div>
+
+				<div class="dashboard-element-main">
+					<div class="dashboard-element-main-number" id="selcare-current-number">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+					<div class="dashboard-element-main-text">
+						<!-- nombre d'heure ou de mois ou de jours current-->
+					</div>
+				</div>
+
+				<div class="dashboard-element-footer">
+					<div class="dashboard-element-footer-text">
+						Last <span class="previous-time"></span> - <span id="selcare-previous-number"></span>hrs</span>
+					</div>
+				</div>
+			</div>
+
+
+
 		</section>
 
 	</div>

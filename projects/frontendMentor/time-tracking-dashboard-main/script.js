@@ -14,6 +14,8 @@ request.onload = function() {
     // Fonction pour filtrer par période
     function filterByPeriod(period) {
 
+
+        //WORK
         // Récupérer le current number de work selon le filtre
         var workCurrentNumber = document.getElementById('work-current-number');
         const workData = data.find(item => item.title === "Work");
@@ -28,22 +30,97 @@ request.onload = function() {
 
 
 
+        //PLAY
+        // Récupérer le current number de play selon le filtre
+        var playCurrentNumber = document.getElementById('play-current-number');
+        const playData = data.find(item => item.title === "Play");
+        const playCurrent = playData.timeframes[period].current;
+        playCurrentNumber.textContent = playCurrent;
+
+        // Récupérer le current number de play selon le filtre
+        var playPreviousNumber = document.getElementById('play-previous-number');
+        const playPrevious = playData.timeframes[period].previous;
+        playPreviousNumber.textContent = playPrevious;
+
+
+
+        //STUDY
+        // Récupérer le current number de study selon le filtre
+        var studyCurrentNumber = document.getElementById('study-current-number');
+        const studyData = data.find(item => item.title === "Study");
+        const studyCurrent = studyData.timeframes[period].current;
+        studyCurrentNumber.textContent = studyCurrent;
+
+        // Récupérer le current number de study selon le filtre
+        var studyPreviousNumber = document.getElementById('study-previous-number');
+        const studyPrevious = studyData.timeframes[period].previous;
+        studyPreviousNumber.textContent = studyPrevious;
+
+
+
+        //EXERCICE
+        // Récupérer le current number de exercice selon le filtre
+        var exerciceCurrentNumber = document.getElementById('exercice-current-number');
+        const exerciceData = data.find(item => item.title === "Exercise");
+        const exerciceCurrent = exerciceData.timeframes[period].current;
+        exerciceCurrentNumber.textContent = exerciceCurrent;
+
+        // Récupérer le current number de exercice selon le filtre
+        var exercicePreviousNumber = document.getElementById('exercice-previous-number');
+        const exercicePrevious = exerciceData.timeframes[period].previous;
+        exercicePreviousNumber.textContent = exercicePrevious;
+
+
+        //SOCIAL
+        // Récupérer le current number de social selon le filtre
+        var socialCurrentNumber = document.getElementById('social-current-number');
+        const socialData = data.find(item => item.title === "Social");
+        const socialCurrent = socialData.timeframes[period].current;
+        socialCurrentNumber.textContent = socialCurrent;
+
+        // Récupérer le current number de exercice selon le filtre
+        var socialPreviousNumber = document.getElementById('social-previous-number');
+        const socialPrevious = socialData.timeframes[period].previous;
+        socialPreviousNumber.textContent = socialPrevious;
+
+
+        //SELF CARE
+        // Récupérer le current number de social selon le filtre
+        var selcareCurrentNumber = document.getElementById('selcare-current-number');
+        const selcareData = data.find(item => item.title === "Self Care");
+        const selcareCurrent = selcareData.timeframes[period].current;
+        selcareCurrentNumber.textContent = selcareCurrent;
+
+        // Récupérer le current number de exercice selon le filtre
+        var selcarePreviousNumber = document.getElementById('selcare-previous-number');
+        const selcarePrevious = selcareData.timeframes[period].previous;
+        selcarePreviousNumber.textContent = selcarePrevious;
+
+
+
+
 
 
 
         // Récupérer le previous time de work selon le filtre
         var PreviousTime = document.querySelector('.previous-time');
+        var dailyElement = document.getElementById('daily');
+        var weeklyElement = document.getElementById('weekly');
+        var monthlyElement = document.getElementById('monthly');
         let previousTime;
 
         switch (period) {
         case "daily":
             previousTime = "day";
+            dailyElement.classList.add('active');
             break;
         case "weekly":
             previousTime = "week";
+            weeklyElement.classList.add('active');
             break;
         case "monthly":
             previousTime = "month";
+            monthlyElement.classList.add('active');
             break;
         default:
             previousTime = "";

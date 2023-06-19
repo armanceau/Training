@@ -10,4 +10,64 @@ body {
 
 	margin: 0;
 	padding: 0;
+
+	background-color: hsl(226, 43%, 10%);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.container{
+	width: 60%;
+	height: 500px;
+
+	display: flex;
+	border: 1px solid red;
+	gap: 40px;
+
+}
+
+.profil{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 100%;
+	border: 1px solid green;
+	background-color: hsl(235, 46%, 20%);
+	color: #fff;
+	border-radius: 25px;
+}
+
+.profil-profil{
+	background-color: hsl(246, 80%, 60%);
+	border-radius: 25px;
+	height: 70%;
+}
+
+.profil-profil > div{
+	margin: 10%;
+}
+
+.profil-filter{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+
+	margin: 10%;
+	color: hsl(236, 100%, 87%);
+}
+
+.active{
+	color: #fff;
+}
+
+.profil-filter-element{
+	transition: .5s;
+	cursor: pointer;
+}
+
+.profil-filter-element:hover{
+	color: #fff;
 }
