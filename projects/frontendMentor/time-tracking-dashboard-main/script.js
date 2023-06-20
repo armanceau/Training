@@ -5,7 +5,6 @@ request.open('GET', '/projects/frontendMentor/time-tracking-dashboard-main/data.
 request.onload = function() {
 
     var data = JSON.parse(request.responseText);
-    console.log(data);
   
     const dailyButton = document.getElementById("daily");
     const weeklyButton = document.getElementById("weekly");
@@ -85,35 +84,46 @@ request.onload = function() {
 		const selcarePrevious = selcareData.timeframes[period].previous;
 		selcarePreviousNumber.textContent = selcarePrevious;
 	  
+		// Récupérer tous les éléments avec la classe "previous-time"
+		var previousTimeElements = document.querySelectorAll('.previous-time');
+
 		// Récupérer le previous time de work selon le filtre
-		var PreviousTime = document.querySelector('.previous-time');
 		var dailyElement = document.getElementById('daily');
 		var weeklyElement = document.getElementById('weekly');
 		var monthlyElement = document.getElementById('monthly');
-		let previousTime;
-	  
+		var previousTime;
+
 		switch (period) {
-		  case "daily":
-			previousTime = "day";
+		case "daily":
+			previousTime = "Day";
 			dailyElement.classList.add('active');
+			monthlyElement.classList.remove('active');
 			weeklyElement.classList.remove('active');
 			break;
-		  case "weekly":
-			previousTime = "week";
+		case "weekly":
+			previousTime = "Week";
 			dailyElement.classList.remove('active');
+			monthlyElement.classList.remove('active');
 			weeklyElement.classList.add('active');
 			break;
-		  case "monthly":
-			previousTime = "month";
+		case "monthly":
+			previousTime = "Month";
 			dailyElement.classList.remove('active');
 			weeklyElement.classList.remove('active');
+			monthlyElement.classList.add('active');
 			break;
-		  default:
+		default:
 			previousTime = "";
 		}
-	  
-		PreviousTime.textContent = previousTime;
-	  }
+
+		// Appliquer le texte "Day" à tous les éléments avec la classe "previous-time"
+		previousTimeElements.forEach(function(element) {
+		element.textContent = previousTime;
+		});
+
+	}
+
+
 	 
   
     // Ajouter des écouteurs d'événements pour les boutons

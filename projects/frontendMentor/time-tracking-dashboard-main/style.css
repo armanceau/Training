@@ -20,13 +20,11 @@ body {
 }
 
 .container{
-	width: 70%;
+	width: 1000px;
 	height: 500px;
 
 	display: flex;
-	border: 1px solid red;
-	gap: 40px;
-
+	gap: 20px;
 }
 
 .profil{
@@ -34,15 +32,15 @@ body {
 	flex-direction: column;
 	width: 25%;
 	height: 100%;
-	border: 1px solid green;
+
 	background-color: hsl(235, 46%, 20%);
 	color: #fff;
-	border-radius: 25px;
+	border-radius: 15px;
 }
 
 .profil-profil{
 	background-color: hsl(246, 80%, 60%);
-	border-radius: 25px;
+	border-radius: 15px;
 	height: 70%;
 }
 
@@ -74,99 +72,176 @@ body {
 
 .dashboard {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
-	gap: 40px;
+	gap: 20px;
+
 	width: 75%;
 	height: 100%;
+
 	color: #fff;
 }
   
 .dashboard-element {
-	flex-basis: calc(33.33% - 40px);
+	flex-basis: calc((75% - 40px * 2) / 3 + 70px);
 	background-color: hsl(235, 46%, 20%);
-	border-radius: 25px;
-	width: calc((75% - 40px * 2) / 3);
+	border-radius: 15px;
+	transition: .5s;
+}
+
+.dashboard-element-img {
+	height: 25%;
+	width: 100%;
+
+	border-radius: 15px 15px 0px 0px;
+
+	display: flex;
+	justify-content: flex-end;
 }
   
-.dashboard-element-img-work {
-	height: 25%;
-	width: 100%;
-	background-size:contain;
-	background-position: right;
+.img-work {
 	background-color: hsl(15, 100%, 70%);
-	border-radius: 25px 25px 0px 0px;
 }
 
-.dashboard-element-img-play {
-	height: 25%;
-	width: 100%;
-	background-size:contain;
-	background-position: right;
+.img-svg{
+	margin-right: 5%;
+	z-index: 0;
+}
+
+.img-play {
 	background-color: hsl(195, 74%, 62%);
-	border-radius: 25px 25px 0px 0px;
 }
 
-.dashboard-element-img-study {
-	height: 25%;
-	width: 100%;
-	background-size:contain;
-	background-position: right;
+.img-study {
 	background-color: hsl(348, 100%, 68%);
-	border-radius: 25px 25px 0px 0px;
 }
 
-.dashboard-element-img-exercice {
-	height: 25%;
-	width: 100%;
-	background-size:contain;
-	background-position: right;
+.img-exercice {
 	background-color: hsl(145, 58%, 55%);
-	border-radius: 25px 25px 0px 0px;
 }
 
-.dashboard-element-img-exercice {
-	height: 25%;
-	width: 100%;
-	background-size:contain;
-	background-position: right;
-	background-color: hsl(145, 58%, 55%);
-	border-radius: 25px 25px 0px 0px;
-}
-
-.dashboard-element-img-social {
-	height: 25%;
-	width: 100%;
-	background-size:contain;
-	background-position: right;
+.img-social {
 	background-color: hsl(264, 64%, 52%);
-	border-radius: 25px 25px 0px 0px;
 }
 
-.dashboard-element-img-selcare {
-	height: 25%;
-	width: 100%;
-	background-size:contain;
-	background-position: right;
+.img-selcare {
 	background-color: hsl(43, 84%, 65%);
-	border-radius: 25px 25px 0px 0px;
 }
-
 
 .dashboard-element-header{
-	height: 10%;
-	border-radius: 25px;
-	margin-top: -10px;
+	height: 20%;
+	border-radius: 20px;
+	padding: 0px 10px 15px 10px;
+	margin-top: -20px;
 	background-color: hsl(235, 46%, 20%);
-	z-index: 8;
+	position: relative;
+	z-index: 1;
+
+	display: flex;
+	justify-content:space-around;
+	align-items: flex-end;
+	gap: 70px;
+
+	transition: .5s;
 }
 
 .dashboard-element-main{
-	height: 30%;
+	height: 20%;
+	background-color: hsl(235, 46%, 20%);
+	position: relative;
+	z-index: 1;
+	transition: .5s;
 }
 
 .dashboard-element-footer{
 	height: 50%;
+	position: relative;
+	z-index: 1;
 }
+
+.profil-profil > div > img {
+	border: 2px solid #fff;
+	border-radius: 999px;
+	transition: .5s;
+}
+
+.profil-profil > div > img:hover {
+	scale: 1.1;
+}
+
+h1{
+	font-size: 2.5em;
+	margin: 0;
+	font-weight: 100;
+}
+
+.dashboard-element-main-number{
+	font-size: 3em;
+	margin-left: 10%;
+}
+
+.dashboard-element-footer{
+	margin-left: 10%;
+	color: hsl(236, 100%, 87%);
+}
+
+.dashboard-element:hover{
+	background-color: hsl(235, 45%, 61%);
+	cursor: pointer;
+}
+
+.dashboard-element:hover > .dashboard-element-header{
+	background-color: hsl(235, 45%, 61%);
+	cursor: pointer;
+}
+
+.dashboard-element:hover > .dashboard-element-main{
+	background-color: hsl(235, 45%, 61%);
+	cursor: pointer;
+}
+
+@media (max-width: 927px){
+	.container{
+		width: 90%;
+		height: 100%;
+		flex-direction: column;
+	}
+
+	.profil{
+		width: 100%;
+	}
+
+	.dashboard{
+		width: 100%;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 480px){
+	.container{
+		width: 90%;
+		height: 100%;
+		flex-direction: column;
+	}
+
+	.profil{
+		width: 100%;
+	}
+
+	.dashboard{
+		height: fit-content;
+	}
+
+	.dashboard-element{
+		width: 100%;
+		flex-basis: 10%;
+	}
+
+	.dashboard-element-img{
+		height: 40%;
+	}
+}
+
+
+
   
   
