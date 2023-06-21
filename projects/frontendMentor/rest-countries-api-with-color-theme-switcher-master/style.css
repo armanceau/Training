@@ -89,13 +89,17 @@ header{
     align-items: center;
 }
 
+header > div {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
 h1{
     margin: 0;
-    margin-left: 9%;
 }
 
 .header-icon-text{
-    margin-right: 9%;
     display: flex;
     gap: 5px;
     align-items: center;
@@ -139,3 +143,22 @@ h1{
     cursor: pointer;
 }
 
+
+@media (max-width: 850px){
+	.filters{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    .header-text{
+        display: none;
+    }
+
+    .header-icon-text{
+        width: 20%;
+    }
+}
