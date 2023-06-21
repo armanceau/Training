@@ -1,0 +1,139 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+
+	margin: 0;
+	padding: 0;
+
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container{
+    height: 100%;
+	width: 100%; 
+}
+
+#country-container {
+    height: 100%;
+	width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+  
+.card {
+    display: flex;
+    flex-direction: column;
+
+    height: 350px;
+    width: 325px;
+
+    width: calc(25% - 150px); /* Définit la largeur de chaque carte */
+    margin-bottom: 20px; /* Ajoute un espace entre les cartes sur la même ligne */
+    box-shadow: 0px 0px 13px 0px hsl(0, 0%, 52%);
+    border-radius: 10px;
+}
+
+h2{
+    margin-left: 20px;  
+}
+
+p{
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: hsl(200, 15%, 8%);
+}
+
+.flag{
+    height: 200px;
+    width: 325px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.span-pop{
+    color: black;
+    font-weight: 700;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+header{
+    margin-top: 0;
+    box-shadow: 0px 1px 10px  hsl(0, 0%, 52%);
+    padding: 20px 0px 20px 0px;
+
+    background-color: hsl(0, 0%, 100%);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    margin-left: 180px;
+}
+
+.header-icon-text{
+    margin-right: 180px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.filters{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+#search-form{
+    margin-left: 180px;
+    width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 1px 5px  hsl(0, 0%, 52%);
+    padding: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+
+.input-submit{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 5%;
+}
+
+#region-select{
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    margin-right: 180px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 1px 5px  hsl(0, 0%, 52%);
+    padding: 20px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+.header-icon-text{
+    cursor: pointer;
+}
+

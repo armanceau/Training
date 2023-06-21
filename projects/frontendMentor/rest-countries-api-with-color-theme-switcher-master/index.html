@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Countries Api</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Where in the world?</h1>
+            </div>
+
+            <div class="header-icon-text">
+                <div class="header-icon">
+                    🌙
+                </div>
+
+                <div class="header-text">
+                    Dark Mode
+                </div>
+            </div>
+        </header>
+
+        <div class="filters">
+            <form id="search-form">
+                <input class="input-submit" type="submit" value="🍳">
+                <input type="text" id="search-input" placeholder="Search for a country ...">
+            </form>
+    
+            <select id="region-select">
+                <option value="">Toutes les régions</option>
+                <option value="Africa">Afrique</option>
+                <option value="Americas">Amériques</option>
+                <option value="Asia">Asie</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Océanie</option>
+            </select>
+        </div>
+        
+
+        <div id="country-container"></div>
+
+       
+        
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
