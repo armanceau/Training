@@ -1,0 +1,123 @@
+html{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+.container{
+    width: 400px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+
+    background-color: #fff;
+}
+
+header{
+    height: 30%;
+    width: 100%;
+
+    background: url('/projects/frontendMentor/order-summary-component-main/images/illustration-hero.svg');
+    border-radius: 20px 20px 0px 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    height: 50%;
+    width: 85%;
+
+    text-align: center;
+}
+
+h1{
+    font-weight: 900;
+    margin: 0;
+    margin-top: 20%;
+}
+
+.main-main{
+    color: hsl(224, 23%, 55%);
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.main-footer-icon-text{
+    display: flex;
+    gap: 20px;
+}
+
+.main-footer-text{
+    font-size: .9em;
+}
+
+.main-footer-text-up{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.main-footer-text-down{
+    color: hsl(224, 23%, 55%); 
+}
+
+footer{
+    width: 85%;
+}
+
+input{
+    border: none;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.input-proceed{
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px 0px 15px 0px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0px 10px 20px hsl(224, 23%, 55%);
+    transition: .5s;
+}
+
+.input-proceed:hover{
+    scale: 1.05;
+}
+
+

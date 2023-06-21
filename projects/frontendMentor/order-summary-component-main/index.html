@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
 	
 	<title>Frontend Mentor | Order summary card</title>
 	<link rel="stylesheet" href="style.css">
@@ -27,47 +29,35 @@
 
 			<section class="main-footer">
 
-				<div class="main-footer-icon">
-					<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#DFE6FB"/><path fill="#717FA6" fill-rule="nonzero" d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"/></g></svg>
-				</div>
-
-				<div class="main-footer-text">
-					<div class="main-footer-text-up">
-						Annual Plan
+				<div class="main-footer-icon-text">
+					<div class="main-footer-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#DFE6FB"/><path fill="#717FA6" fill-rule="nonzero" d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"/></g></svg>
 					</div>
-
-					<div class="main-footer-text-down">
-						$59.99/year
+	
+					<div class="main-footer-text">
+						<div class="main-footer-text-up">
+							Annual Plan
+						</div>
+	
+						<div class="main-footer-text-down">
+							$59.99/year
+						</div>
+	
 					</div>
-
 				</div>
-
+				
 				<div class="main-footer-link">
-					Change
+					<a href="#">Change</a> 
 				</div>
 				
 			</section>
 		</main>
 
 		<footer>
-
+			<div><input class="input-proceed" type="button" value="Proceed to Payment"></div>
+			<br>
+			<div><input type="button" value="Cancel Order"></div>
 		</footer>
 	</div>
-
-  
-
-  
-
-  
-  
-  
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
