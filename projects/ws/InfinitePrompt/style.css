@@ -1,0 +1,91 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.prompt {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 200px;
+
+    background-color: black;
+    color: #fff;
+    font-size: 3em;
+    overflow: hidden;
+}
+
+.spanSlide{
+    white-space: nowrap;
+    font-size: 200px;
+    animation: slide 10s infinite linear;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes deslide {
+    0% {
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+input{
+    border: none;
+    background-color: #fff;
+
+    font-size: 2em;
+    cursor: pointer;
+    transition: .5s;
+
+    color: black;
+
+    display: flex;
+    align-items: center;
+}
+
+input:hover{
+    scale: 1.1;
+}
+
+h1{
+    text-transform: uppercase;
+    color: #2196F3;
+}
+
+
+
+
