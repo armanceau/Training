@@ -82,6 +82,7 @@ input:hover{
 }
 
 h1{
+    text-align: center;
     text-transform: uppercase;
     color: #2196F3;
 }
