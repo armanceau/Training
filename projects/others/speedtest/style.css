@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+    background-color: #232323;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    background-color: lightblue;
+
+    padding: 5px 20px;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 5px;
+
+    transition: .5s;
+
+    font-weight: 500;
+}
+
+input:hover{
+    background-color: rgb(117, 145, 155);
+}
