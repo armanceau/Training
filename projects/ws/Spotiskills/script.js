@@ -7,36 +7,46 @@ request.onload = function(){
     
     // Sélectionnez un élément du DOM pour y ajouter les divs des chansons
     var songsContainer = document.getElementById('songs-container');
-
+ 
     // Bouclez à travers chaque chanson dans les données
-    console.log(data.songs.length)
-    for (var i = 0; i < data.songs.length; i++) {
+
+    for(var i = 0; i < data.songs.length; i++){
         var song = data.songs[i];
+        console.log(song )
         
-        // Créez une div pour chaque chanson
-        var songDiv = document.createElement('div');
-        songDiv.className = 'song';
+        
+        var divSong = document.createElement('div')
+  
+        var pTitle = document.createElement('p')
+        pTitle.textContent = song.title
 
-        // Créez des éléments pour chaque paramètre de la chanson
-        var title = document.createElement('p');
-        title.textContent = 'Title: ' + song.title;
+        var pArtiste = document.createElement('p')
+        pArtiste.textContent = song.artist
 
-        var artist = document.createElement('p');
-        artist.textContent = 'Artist: ' + song.artist;
+        var pGenre = document.createElement('p')
+        pGenre.textContent = song.genre
+ 
+        
 
-        var genre = document.createElement('p');
-        genre.textContent = 'Genre: ' + song.genre;
-
-        // Ajoutez les éléments au div de la chanson
-        songDiv.appendChild(title);
-        songDiv.appendChild(artist);
-        songDiv.appendChild(genre);
+        divSong.appendChild(pTitle);
+        divSong.appendChild(pArtiste);
+        divSong.appendChild(pGenre);
 
         // Ajoutez la div de la chanson au conteneur principal
-        songsContainer.appendChild(songDiv);
+        songsContainer.appendChild(divSong);
     }
 }
 
 request.send();
-
-
+    
+function testConnect(){
+    var inputConnect = document.getElementById('inputConnect').value
+    if(inputConnect ===''){
+        alert('Rentrez un identifiant')
+        return false
+    }
+    else{
+        localStorage.setItem('identifiant', inputConnect)
+        document.location='home.html'
+    }
+}
