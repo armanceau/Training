@@ -1,12 +1,13 @@
 var request = new XMLHttpRequest();
 
 request.open('GET', 'data.json', true);
+var songsContainer = document.getElementById('songs-container');
 
 request.onload = function(){
     var data = JSON.parse(request.responseText);
     
     // Sélectionnez un élément du DOM pour y ajouter les divs des chansons
-    var songsContainer = document.getElementById('songs-container');
+
  
     // Bouclez à travers chaque chanson dans les données
 
@@ -25,6 +26,9 @@ request.onload = function(){
 
         var pGenre = document.createElement('p')
         pGenre.textContent = song.genre
+
+        var divImg = document.createElement('div')
+        divImg.classList('img-class')
  
         
 
@@ -50,3 +54,13 @@ function testConnect(){
         document.location='home.html'
     }
 }
+
+console.log(localStorage.getItem('identifiant'))
+var identifiant1 = localStorage.getItem('identifiant')
+var identifiant = document.createElement('p')
+console.log(identifiant1)
+
+identifiant.textContent = 'Bonjour ' +identifiant1
+
+
+songsContainer.appendChild(identifiant)
