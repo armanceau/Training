@@ -1,0 +1,23 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "title": "Chanson 1",
+        "artist": "Artiste 1",
+        "genre": "Pop"
+      },
+      {
+        "id": 2,
+        "title": "Chanson 2",
+        "artist": "Artiste 2",
+        "genre": "Rock"
+      },
+      {
+        "id": 3,
+        "title": "Chanson 3",
+        "artist": "Artiste 3",
+        "genre": "Hip-Hop"
+      }
+    ]
+  }
+  
