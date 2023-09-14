@@ -25,11 +25,7 @@ request.onload = function(){
         pArtiste.textContent = song.artist
 
         var pGenre = document.createElement('p')
-        pGenre.textContent = song.genre
-
-        var divImg = document.createElement('div')
-        divImg.classList('img-class')
- 
+        pGenre.textContent = song.genre 
         
 
         divSong.appendChild(pTitle);
@@ -64,3 +60,12 @@ identifiant.textContent = 'Bonjour ' +identifiant1
 
 
 songsContainer.appendChild(identifiant)
+
+var element = document.getElementById('#test')
+var canvas = document.createElement('canvas')
+canvasWidth = element.clientWidth
+canvasHeight = element.clientHeight
+
+var ctx = canvas.getContext('2d')
+
+
