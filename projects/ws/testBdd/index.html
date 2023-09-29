@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page HTML pour accéder à l'API</title>
+</head>
+<body>
+    <h1>Exemple d'accès à une API</h1>
+    
+    <button id="getApiResponseButton">Obtenir la réponse de l'API</button>
+    <div id="apiResponse"></div>
+
+    <script>
+        const getApiResponseButton = document.getElementById('getApiResponseButton');
+        const apiResponse = document.getElementById('apiResponse');
+
+        getApiResponseButton.addEventListener('click', () => {
+            // Effectuer une requête GET vers l'API
+            fetch('http://localhost:8080')
+                .then(response => response.text())
+                .then(data => {
+                    // Afficher la réponse de l'API dans la page HTML
+                    apiResponse.textContent = data;
+                })
+                .catch(error => {
+                    console.error('Erreur lors de la récupération de la réponse de l\'API:', error);
+                });
+        });
+    </script>
+</body>
+</html>
