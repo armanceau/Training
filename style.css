@@ -323,11 +323,6 @@ a{
 	top: 0;
 	z-index: 10;
 	cursor: pointer;
-	transition: .3s;
-}
-
-.close:hover{
-	scale: 1.2;
 }
 
 .img-profil {
