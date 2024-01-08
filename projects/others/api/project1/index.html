@@ -17,7 +17,7 @@
 
     var city = document.getElementById('input-search').value;
 
-    request.open('GET', 'http://127.0.0.1:8000/api', true);
+    request.open('GET', 'https://127.0.0.1:8001/api', true);
 
     request.onload = function(){
         var data = JSON.parse(request.responseText);
