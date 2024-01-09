@@ -4,37 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Api</title>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+        displayAllBook();
+    });
+    </script>
 </head>
 <body>
     <input type="text" id="input-search">
     <input type="button" value="Submit" onclick="sendRequest()">
-    <div id="test"></div>
+    <div id="display-book"></div>
 
 </body>
-<script>
-    function sendRequest(){
-    var request = new XMLHttpRequest();
-
-    var city = document.getElementById('input-search').value;
-
-    request.open('GET', 'https://127.0.0.1:8001/api', true);
-
-    request.onload = function(){
-        var data = JSON.parse(request.responseText);
-
-        var test = document.getElementById('test');
-
-        test.textContent = data.id;
-
-        console.log(data);
-    }
-
-request.send();
-}
-
-
-
-
-
-</script>
+<script src="script1.js"></script>
 </html>
