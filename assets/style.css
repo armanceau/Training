@@ -393,6 +393,19 @@ a{
 		color: #fff;
 		box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
 	}
+	.bi-arrow-right-circle-fill{
+		display: none;
+	}
+	.move-div {
+		display: flex;
+        margin: 0 !important;
+        animation: none !important; /* Annule l'animation */
+		justify-content: center;
+		width: 100% !important; 
+    }
+	.move-btn:hover .move-div {
+		left: 0;
+	}
 }
 
 .container-waves{
