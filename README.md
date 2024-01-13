@@ -24,7 +24,8 @@ Javascript, HTML, CSS, PHP, SQL, JSON, API, ...
 - Frontend Mentor (exercises of frontend mentor)
 - WorldSkills (exercises for final)
 - Others (multiples tests)
-
+- React native projects
+- Symfony projects
 
 ## 🔗 Links
 [![Frontend Mentor](https://www.frontendmentor.io/static/images/logo-desktop.svg)](https://www.frontendmentor.io/profile/armanceau2)
