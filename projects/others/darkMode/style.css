@@ -6,16 +6,16 @@
 }
 
 html{
-    font-size: 62.5%;/* 1rem = 10px*/
+    width: 100%;
+    height: 100%;
 }
 
 body{
-    font-size: 1.4rem;/* soit 14px*/
-    font-family: arial;
-    color: white;
+    width: 100%;
+    height: 100%;
 }
 
-.container{
+.container-switch{
     background-color: #2C3C54;/*nouvelle couleur de fond*/
     height: 100vh;
     display: flex;
@@ -25,7 +25,7 @@ body{
     text-align: center;/*A ajouter*/
 }
 
-.container-change{
+.container-switch-change{
     background-color: #CBE6FF;
 }
 
@@ -41,6 +41,8 @@ body{
     position: relative;/*Permet de positionner l'icône en absolute*/
     border: 1px solid #1E2939;
     padding: 1rem;
+    transition: .5s;
+    cursor: pointer;
 }
 
 .btn{
@@ -56,8 +58,9 @@ body{
 .switch i{
     position: absolute;
     color: #FFD363;
-    top: 6px;
-    right: 23px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn-change{
@@ -72,4 +75,12 @@ body{
 .switch-change{
     background-color: #61b3ff;
     border: 1px solid #61b3ff;
+}
+
+.title{
+    color: #CBE6FF;
+}
+
+.title-change{
+    color: #1E2939;
 }

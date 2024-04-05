@@ -1,21 +1,15 @@
 const switchBox = document.querySelector('.switch');
-console.log(switchBox);
 
 const btn = document.querySelector('.btn');
-console.log(btn);
 
 const icon = document.querySelector('i');
-console.log(icon);
 
-const container = document.querySelector('.container');
-console.log(container);
+const container = document.querySelector('.container-switch');
 
-const titre = document.querySelector('h1');
-console.log(titre);
+const titre = document.querySelector('.title');
 
 switchBox.addEventListener('click', function(){
     console.log('div cliquée!');
-    //btn.style.left = "60px";
     btn.classList.toggle('btn-change');
 
     icon.classList.toggle('icone-change');
@@ -24,7 +18,9 @@ switchBox.addEventListener('click', function(){
 
     switchBox.classList.toggle('switch-change');
 
-    container.classList.toggle('container-change');
+    container.classList.toggle('container-switch-change');
+
+    titre.classList.toggle('title-change');
 
     if(titre.innerText === "DARK MODE"){
         titre.innerText = "LIGHT MODE";
